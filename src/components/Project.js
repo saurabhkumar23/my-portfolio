@@ -7,7 +7,7 @@ const Project = () => {
                 <h1 className='text-center mt-2 mb-5' data-aos='flip-down'>PROJECTS</h1>
                 <div className='row py-5 justify-content-evenly'>
                     <div className='col-lg-3 mb-3' data-aos='fade-right'>
-                        <a href="https://github.com/saurabhkumar23" target='_blank'> 
+                        <a href="https://github.com/saurabhkumar23" target='_blank' rel="noreferrer"> 
                             <div className='card'>
                                 <img src='/images/umix.png' className='img-fluid' alt='umix-project'/>
                                 <div className='px-3 pt-3 pb-2'>
@@ -23,13 +23,13 @@ const Project = () => {
                                     <button type="button">MaterializeCss</button>
                                 </div>
                                 <div className='read-more mt-4'>
-                                    <a href="https://github.com/saurabhkumar23" target='_blank' type="button" className="btn btn-secondary fw-bold">Read More</a>
+                                    <a href="https://github.com/saurabhkumar23" target='_blank' rel="noreferrer" type="button" className="btn btn-secondary fw-bold">Read More</a>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <div className='col-lg-3 mb-3' data-aos='fade-up'>
-                        <a href="https://github.com/saurabhkumar23" target='_blank'> 
+                        <a href="https://github.com/saurabhkumar23" target='_blank' rel="noreferrer"> 
                             <div className='card'>
                                 <img src='/images/chitchat.jpg' className='img-fluid' alt='umix-project'/>
                                 <div className='px-3 pt-3 pb-2'>
@@ -45,13 +45,13 @@ const Project = () => {
                                     <button type="button">MaterializeCss</button>
                                 </div>
                                 <div className='read-more mt-4'>
-                                    <a href="https://github.com/saurabhkumar23" target='_blank' type="button" className="btn btn-secondary fw-bold">Read More</a>
+                                    <a href="https://github.com/saurabhkumar23" target='_blank' rel="noreferrer" type="button" className="btn btn-secondary fw-bold">Read More</a>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <div className='col-lg-3 mb-3' data-aos='fade-left'>
-                        <a href="https://github.com/saurabhkumar23" target='_blank'> 
+                        <a href="https://github.com/saurabhkumar23" target='_blank' rel="noreferrer"> 
                             <div className='card'>
                                 <img src='/images/thehub.jpg' className='img-fluid' alt='umix-project'/>
                                 <div className='px-3 pt-3 pb-2'>
@@ -67,7 +67,7 @@ const Project = () => {
                                     <button type="button">MaterializeCss</button>
                                 </div>
                                 <div className='read-more mt-4'>
-                                    <a href="https://github.com/saurabhkumar23" target='_blank' type="button" className="btn btn-secondary fw-bold">Read More</a>
+                                    <a href="https://github.com/saurabhkumar23" target='_blank' rel="noreferrer" type="button" className="btn btn-secondary fw-bold">Read More</a>
                                 </div>
                             </div>
                         </a>

@@ -46,7 +46,7 @@ const About = () => {
                             </div>
                         </div>
                         <div className='about-links mt-5'>
-                            <a class="btn btn-dark me-4 bt1" href="https://drive.google.com/file/d/1lEeGztDVqD3-Al9aP050OBzTkq9zkrCB/view?usp=sharing" target='_blank' role="button">DOWNLOAD CV</a>
+                            <a class="btn btn-dark me-4 bt1" href="https://drive.google.com/file/d/1lEeGztDVqD3-Al9aP050OBzTkq9zkrCB/view?usp=sharing" target='_blank' rel="noreferrer" role="button">DOWNLOAD CV</a>
                             <a class="btn btn-light border border-dark px-4 bt2" href="#contact" role="button">Contact Us</a>
                         </div>
                     </div>
