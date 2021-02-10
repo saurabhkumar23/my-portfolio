@@ -1,0 +1,73 @@
+#project{
+    h1{
+        font-size: 3rem;
+        font-weight: 900;
+    }
+    a{
+        text-decoration: none;
+    }
+    .card{
+        box-shadow: 0px 1px 66px -24px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 0px 1px 66px -24px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 1px 66px -24px rgba(0,0,0,0.75);
+        transition: all 0.3s ease-in-out;
+        h4{
+            color: $darkColor;
+        }
+        p{
+            color: $darkColor;
+        }
+        &:hover{
+            transform: scale(1.05);
+        }
+    }
+    .project-stack button{
+        font-size: .64285714rem;
+        line-height: 1;
+        margin: 0 .14285714em;
+        background-color: $lightColor2;
+        padding: .5833em .833em;
+        color: rgba(0,0,0,.6);
+        font-weight: 700;
+        border: 0 solid transparent;
+        border-radius: .28571429rem;
+        pointer-events: none;
+    }
+    .read-more a{
+        border: none;
+        outline: 0;
+        background-color: $lightColor2;
+        color: rgba(0,0,0,.6);
+        box-shadow: 0 0 0 1px rgba(34,36,38,.15)!important;
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    #project{
+        h1{
+            font-size: 1.8rem;
+        }
+        .project-container{
+            .card-container{
+                padding: 10px 40px;
+                .card{
+                    h4{
+                        font-size: 1.1rem;
+                        margin-bottom: 2px;
+                    }
+                    h5{
+                        font-size: 0.8rem;
+                    }
+                    p{
+                        font-size: 0.7rem;
+                        margin-bottom: 0.4rem;
+                    }
+                    .read-more a{
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+        }
+    }
+}
