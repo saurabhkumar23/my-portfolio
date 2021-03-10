@@ -8,7 +8,7 @@ const Project = () => {
                 <div className='row py-3 py-md-5 justify-content-evenly project-container'>
                     <div className='card-container my-3 col-sm-12 col-md-3'>
                         <div data-aos='fade-up'>
-                            <a href="https://github.com/saurabhkumar23" target='_blank' rel="noreferrer"> 
+                            <a href="https://umix.herokuapp.com/" target='_blank' rel="noreferrer"> 
                                 <div className='card'>
                                     <img src='/images/umix.png' className='img-fluid' alt='umix-project'/>
                                     <div className='px-3 pt-3 pb-2'>
@@ -24,7 +24,7 @@ const Project = () => {
                                         <button type="button">MaterializeCss</button>
                                     </div>
                                     <div className='read-more mt-3 mt-md-4'>
-                                        <a href="https://github.com/saurabhkumar23" target='_blank' rel="noreferrer" type="button" className="btn btn-secondary fw-bold">Read More</a>
+                                        <a href="https://github.com/saurabhkumar23/umix" target='_blank' rel="noreferrer" type="button" className="btn btn-secondary fw-bold">Read More</a>
                                     </div>
                                 </div>
                             </a>
