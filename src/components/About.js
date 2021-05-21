@@ -12,8 +12,8 @@ const About = () => {
                     <div className='col-sm-12 col-md-7 pt-md-3 about-me' data-aos='fade-up'>
                         <h1>About Me.</h1>
                         <div className='profession'>
-                            <p><span>|</span> FULL STACK WEB DEVELOPER <span>|</span></p>
-                            <p>COMPETITIVE PROGRAMMER <span>|</span></p>
+                            <p><span>|</span> JAVASCRIPT DEVELOPER <span>|</span></p>
+                            <p>C++ PROGRAMMER <span>|</span></p>
                         </div>
                         <p className='myself px-1 px-md-0 py-4 fs-5'>Hi, I'm <span className='fw-bold'>Saurabh Kumar </span> 
                         pursuing my engineering in the field of information 
@@ -50,7 +50,7 @@ const About = () => {
                             </div>
                         </div>
                         <div className='about-links mt-4 mt-md-5'>
-                            <a class="btn btn-dark me-2 me-md-4 bt1" href="https://drive.google.com/file/d/1LoY95gP_AvwbfA9iVAfHIoheTimM4UY2/view?usp=sharing" target='_blank' rel="noreferrer" role="button">DOWNLOAD CV</a>
+                            <a class="btn btn-dark me-2 me-md-4 bt1" href="https://drive.google.com/file/d/1iaJe58FtKGwm37a7LXFXfYl8zzVLjYpQ/view?usp=sharing" target='_blank' rel="noreferrer" role="button">DOWNLOAD CV</a>
                             <a class="btn btn-light border border-dark px-4 bt2" href="#contact" role="button">Contact Us</a>
                         </div>
                     </div>
