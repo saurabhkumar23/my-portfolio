@@ -155,6 +155,34 @@ const Project = () => {
                                 </div>
                             </div>
                         </div>
+                        <div class="carousel-item">
+                            {/* third 3 projects */}
+                            <div className='row py-3 py-md-5 justify-content-evenly project-container'>
+                                <div className='card-container col-sm-12 col-md-3 my-3'>
+                                    <div data-aos='fade-up'>
+                                        <a href="https://github.com/saurabhkumar23/youtube-playlist-duration" target='_blank' rel="noreferrer"> 
+                                            <div className='card'>
+                                                <img src='/images/yt-playlist.png' className='img-fluid' alt='yt-playlist-project'/>
+                                                <div className='px-3 pt-3 pb-2'>
+                                                    <h4 className='fw-bold mt-2'>YOUTUBE PLAYLIST DURATION</h4>
+                                                    <h5 className='text-muted'>May 2021</h5>
+                                                </div>
+                                                <p className='px-3'>Automation script which give details about the content of a youtube playlist.</p>
+                                                <div className='project-stack px-3'>
+                                                    <button type="button">NodeJs</button>
+                                                    <button type="button">JavaScript</button>
+                                                    <button type="button">Puppeteer</button>
+                                                    <button type="button">Automation</button>
+                                                </div>
+                                                <div className='read-more mt-4'>
+                                                    <a href="https://github.com/saurabhkumar23/youtube-playlist-duration" target='_blank' rel="noreferrer" type="button" className="btn btn-secondary fw-bold">Read More</a>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                         <div class="carousel-icon-container">
