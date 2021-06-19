@@ -38,9 +38,9 @@ const Project = () => {
                                 </div>
                                 <div className='card-container col-sm-12 col-md-3 my-3'>
                                     <div data-aos='fade-up'>
-                                        <a href="https://github.com/saurabhkumar23" target='_blank' rel="noreferrer"> 
+                                        <a href="https://laughing-borg-d700ef.netlify.app/" target='_blank' rel="noreferrer"> 
                                             <div className='card'>
-                                                <img src='/images/chitchat.jpg' className='img-fluid' alt='umix-project'/>
+                                                <img src='/images/chitchat.jpg' className='img-fluid' alt='chit-chat-project'/>
                                                 <div className='px-3 pt-3 pb-2'>
                                                     <h4 className='fw-bold mt-2'>CHIT - CHAT</h4>
                                                     <h5 className='text-muted'>August 2020</h5>
@@ -48,13 +48,13 @@ const Project = () => {
                                                 <p className='px-3'>A small scale chatting web project where more than one users chat at a time.</p>
                                                 <div className='project-stack px-3'>
                                                     <button type="button">ReactJs</button>
-                                                    <button type="button">Mongoose</button>
+                                                    <button type="button">SocketIO</button>
                                                     <button type="button">Express</button>
                                                     <button type="button">NodeJs</button>
-                                                    <button type="button">MaterializeCss</button>
+                                                    <button type="button">Css</button>
                                                 </div>
                                                 <div className='read-more mt-4'>
-                                                    <a href="https://github.com/saurabhkumar23" target='_blank' rel="noreferrer" type="button" className="btn btn-secondary fw-bold">Read More</a>
+                                                    <a href="https://github.com/saurabhkumar23/Chit-Chat" target='_blank' rel="noreferrer" type="button" className="btn btn-secondary fw-bold">Read More</a>
                                                 </div>
                                             </div>
                                         </a>
@@ -62,20 +62,24 @@ const Project = () => {
                                 </div>
                                 <div className='card-container col-sm-12 col-md-3 my-3'>
                                     <div data-aos='fade-up'>
-                                        <a href="https://github.com/saurabhkumar23/winux" target='_blank' rel="noreferrer"> 
+                                        <a href="https://saurabhkumar23.github.io/Awesome-Bots/" target='_blank' rel="noreferrer"> 
                                             <div className='card'>
-                                                <img src='/images/winux.png' className='img-fluid' alt='umix-project'/>
+                                                <img src='/images/automation.png' className='img-fluid' alt='awesome-bots'/>
                                                 <div className='px-3 pt-3 pb-2'>
-                                                    <h4 className='fw-bold mt-2'>WINUX</h4>
-                                                    <h5 className='text-muted'>January 2021</h5>
+                                                    <h4 className='fw-bold mt-2'>AWESOME BOTS</h4>
+                                                    <h5 className='text-muted'>March 2021</h5>
                                                 </div>
-                                                <p className='px-3'>A NodeJs script which allows us to run bash like commands on windows operating system.</p>
+                                                <p className='px-3'>Automation scripts which helps to speed up common tasks to lift productivity. visit github to read
+                                                more about those tools.</p>
                                                 <div className='project-stack px-3'>
                                                     <button type="button">NodeJs</button>
-                                                    <button type="button">JavaScript</button>
+                                                    <button type="button">html</button>
+                                                    <button type="button">Css</button>
+                                                    <button type="button">Puppeteer</button>
+                                                    <button type="button">Automation</button>
                                                 </div>
                                                 <div className='read-more mt-4'>
-                                                    <a href="https://github.com/saurabhkumar23/winux" target='_blank' rel="noreferrer" type="button" className="btn btn-secondary fw-bold">Read More</a>
+                                                    <a href="https://github.com/saurabhkumar23/Awesome-Bots" target='_blank' rel="noreferrer" type="button" className="btn btn-secondary fw-bold">Read More</a>
                                                 </div>
                                             </div>
                                         </a>
@@ -88,94 +92,21 @@ const Project = () => {
                             <div className='row py-3 py-md-5 justify-content-evenly project-container'>
                                 <div className='card-container col-sm-12 col-md-3 my-3'>
                                     <div data-aos='fade-up'>
-                                        <a href="https://github.com/saurabhkumar23/cleanup" target='_blank' rel="noreferrer"> 
+                                        <a href="https://github.com/saurabhkumar23/winux" target='_blank' rel="noreferrer"> 
                                             <div className='card'>
-                                                <img src='/images/cleanup.jpg' className='img-fluid' alt='cleanup-project'/>
+                                                <img src='/images/winux.png' className='img-fluid' alt='winux-project'/>
                                                 <div className='px-3 pt-3 pb-2'>
-                                                    <h4 className='fw-bold mt-2'>CLEANUP</h4>
+                                                    <h4 className='fw-bold mt-2'>WINUX</h4>
                                                     <h5 className='text-muted'>January 2021</h5>
                                                 </div>
-                                                <p className='px-3'>A simple command line utility that organises files in a directory into subdirectories based on the file extensions.</p>
+                                                <p className='px-3'>A NodeJs script which allows us to run bash like commands on windows operating system.</p>
                                                 <div className='project-stack px-3'>
                                                     <button type="button">NodeJs</button>
+                                                    <button type="button">Bash</button>
                                                     <button type="button">JavaScript</button>
                                                 </div>
                                                 <div className='read-more mt-4'>
-                                                    <a href="https://github.com/saurabhkumar23/cleanup" target='_blank' rel="noreferrer" type="button" className="btn btn-secondary fw-bold">Read More</a>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div className='card-container col-sm-12 col-md-3 my-3'>
-                                    <div data-aos='fade-up'>
-                                        <a href="https://github.com/saurabhkumar23/coding-companion" target='_blank' rel="noreferrer"> 
-                                            <div className='card'>
-                                                <img src='/images/code-companion.jpg' className='img-fluid' alt='code-companion-project'/>
-                                                <div className='px-3 pt-3 pb-2'>
-                                                    <h4 className='fw-bold mt-2'>CODE COMPANION</h4>
-                                                    <h5 className='text-muted'>March 2021</h5>
-                                                </div>
-                                                <p className='px-3'>It download test cases of coding problems from the platform and adds template according to your coding language.</p>
-                                                <div className='project-stack px-3'>
-                                                    <button type="button">NodeJs</button>
-                                                    <button type="button">JavaScript</button>
-                                                    <button type="button">Puppeteer</button>
-                                                    <button type="button">Automation</button>
-                                                </div>
-                                                <div className='read-more mt-4'>
-                                                    <a href="https://github.com/saurabhkumar23/coding-companion" target='_blank' rel="noreferrer" type="button" className="btn btn-secondary fw-bold">Read More</a>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div className='card-container col-sm-12 col-md-3 my-3'>
-                                    <div data-aos='fade-up'>
-                                        <a href="https://github.com/saurabhkumar23/spotify-playlist-manager" target='_blank' rel="noreferrer"> 
-                                            <div className='card'>
-                                                <img src='/images/spotify.png' className='img-fluid' alt='spotify-project'/>
-                                                <div className='px-3 pt-3 pb-2'>
-                                                    <h4 className='fw-bold mt-2'>SPOTIFY PLAYLIST MANAGER</h4>
-                                                    <h5 className='text-muted'>April 2021</h5>
-                                                </div>
-                                                <p className='px-3'>Automation script in nodejs which can manage your spotify playlist data.</p>
-                                                <div className='project-stack px-3'>
-                                                    <button type="button">JavaScript</button>
-                                                    <button type="button">Puppeteer</button>
-                                                    <button type="button">NodeJs</button>
-                                                    <button type="button">Automation</button>
-                                                </div>
-                                                <div className='read-more mt-4'>
-                                                    <a href="https://github.com/saurabhkumar23/spotify-playlist-manager" target='_blank' rel="noreferrer" type="button" className="btn btn-secondary fw-bold">Read More</a>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            {/* third 3 projects */}
-                            <div className='row py-3 py-md-5 justify-content-evenly project-container'>
-                                <div className='card-container col-sm-12 col-md-3 my-3'>
-                                    <div data-aos='fade-up'>
-                                        <a href="https://github.com/saurabhkumar23/youtube-playlist-duration" target='_blank' rel="noreferrer"> 
-                                            <div className='card'>
-                                                <img src='/images/yt-playlist.png' className='img-fluid' alt='yt-playlist-project'/>
-                                                <div className='px-3 pt-3 pb-2'>
-                                                    <h4 className='fw-bold mt-2'>YOUTUBE PLAYLIST DURATION</h4>
-                                                    <h5 className='text-muted'>May 2021</h5>
-                                                </div>
-                                                <p className='px-3'>Automation script which give details about the content of a youtube playlist.</p>
-                                                <div className='project-stack px-3'>
-                                                    <button type="button">NodeJs</button>
-                                                    <button type="button">JavaScript</button>
-                                                    <button type="button">Puppeteer</button>
-                                                    <button type="button">Automation</button>
-                                                </div>
-                                                <div className='read-more mt-4'>
-                                                    <a href="https://github.com/saurabhkumar23/youtube-playlist-duration" target='_blank' rel="noreferrer" type="button" className="btn btn-secondary fw-bold">Read More</a>
+                                                    <a href="https://github.com/saurabhkumar23/winux" target='_blank' rel="noreferrer" type="button" className="btn btn-secondary fw-bold">Read More</a>
                                                 </div>
                                             </div>
                                         </a>
@@ -231,9 +162,9 @@ const Project = () => {
                     </div>
                     <div className='card-container col-sm-12 col-md-3 my-3'>
                         <div data-aos='fade-up'>
-                            <a href="https://github.com/saurabhkumar23" target='_blank' rel="noreferrer"> 
+                            <a href="https://laughing-borg-d700ef.netlify.app/" target='_blank' rel="noreferrer"> 
                                 <div className='card'>
-                                    <img src='/images/chitchat.jpg' className='img-fluid' alt='umix-project'/>
+                                    <img src='/images/chitchat.jpg' className='img-fluid' alt='chit-chat-project'/>
                                     <div className='px-3 pt-3 pb-2'>
                                         <h4 className='fw-bold mt-2'>CHIT - CHAT</h4>
                                         <h5 className='text-muted'>August 2020</h5>
@@ -241,13 +172,38 @@ const Project = () => {
                                     <p className='px-3'>A small scale chatting web project where more than one users chat at a time.</p>
                                     <div className='project-stack px-3'>
                                         <button type="button">ReactJs</button>
-                                        <button type="button">Mongoose</button>
+                                        <button type="button">SocketIO</button>
                                         <button type="button">Express</button>
                                         <button type="button">NodeJs</button>
-                                        <button type="button">MaterializeCss</button>
+                                        <button type="button">Css</button>
                                     </div>
                                     <div className='read-more mt-4'>
-                                        <a href="https://github.com/saurabhkumar23" target='_blank' rel="noreferrer" type="button" className="btn btn-secondary fw-bold">Read More</a>
+                                        <a href="https://github.com/saurabhkumar23/Chit-Chat" target='_blank' rel="noreferrer" type="button" className="btn btn-secondary fw-bold">Read More</a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div className='card-container col-sm-12 col-md-3 my-3'>
+                        <div data-aos='fade-up'>
+                            <a href="https://saurabhkumar23.github.io/Awesome-Bots/" target='_blank' rel="noreferrer"> 
+                                <div className='card'>
+                                    <img src='/images/automation.png' className='img-fluid' alt='awesome-bots'/>
+                                    <div className='px-3 pt-3 pb-2'>
+                                        <h4 className='fw-bold mt-2'>AWESOME BOTS</h4>
+                                        <h5 className='text-muted'>March 2021</h5>
+                                    </div>
+                                    <p className='px-3'>Automation scripts which helps to speed up common tasks to lift productivity. visit github to read
+                                                more about those tools.</p>
+                                    <div className='project-stack px-3'>
+                                        <button type="button">NodeJs</button>
+                                        <button type="button">html</button>
+                                        <button type="button">Css</button>
+                                        <button type="button">Puppeteer</button>
+                                        <button type="button">Automation</button>
+                                    </div>
+                                    <div className='read-more mt-4'>
+                                        <a href="https://github.com/saurabhkumar23/Awesome-Bots" target='_blank' rel="noreferrer" type="button" className="btn btn-secondary fw-bold">Read More</a>
                                     </div>
                                 </div>
                             </a>
@@ -257,7 +213,7 @@ const Project = () => {
                         <div data-aos='fade-up'>
                             <a href="https://github.com/saurabhkumar23/winux" target='_blank' rel="noreferrer"> 
                                 <div className='card'>
-                                    <img src='/images/winux.png' className='img-fluid' alt='umix-project'/>
+                                    <img src='/images/winux.png' className='img-fluid' alt='winux-project'/>
                                     <div className='px-3 pt-3 pb-2'>
                                         <h4 className='fw-bold mt-2'>WINUX</h4>
                                         <h5 className='text-muted'>January 2021</h5>
@@ -265,6 +221,7 @@ const Project = () => {
                                     <p className='px-3'>A NodeJs script which allows us to run bash like commands on windows operating system.</p>
                                     <div className='project-stack px-3'>
                                         <button type="button">NodeJs</button>
+                                        <button type="button">Bash</button>
                                         <button type="button">JavaScript</button>
                                     </div>
                                     <div className='read-more mt-4'>
@@ -274,96 +231,7 @@ const Project = () => {
                             </a>
                         </div>
                     </div>
-                    <div className='card-container col-sm-12 col-md-3 my-3'>
-                        <div data-aos='fade-up'>
-                            <a href="https://github.com/saurabhkumar23/cleanup" target='_blank' rel="noreferrer"> 
-                                <div className='card'>
-                                    <img src='/images/cleanup.jpg' className='img-fluid' alt='cleanup-project'/>
-                                    <div className='px-3 pt-3 pb-2'>
-                                        <h4 className='fw-bold mt-2'>CLEANUP</h4>
-                                        <h5 className='text-muted'>January 2021</h5>
-                                    </div>
-                                    <p className='px-3'>A simple command line utility that organises files in a directory into subdirectories based on the file extensions.</p>
-                                    <div className='project-stack px-3'>
-                                        <button type="button">NodeJs</button>
-                                        <button type="button">JavaScript</button>
-                                    </div>
-                                    <div className='read-more mt-4'>
-                                        <a href="https://github.com/saurabhkumar23/cleanup" target='_blank' rel="noreferrer" type="button" className="btn btn-secondary fw-bold">Read More</a>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div className='card-container col-sm-12 col-md-3 my-3'>
-                        <div data-aos='fade-up'>
-                            <a href="https://github.com/saurabhkumar23/coding-companion" target='_blank' rel="noreferrer"> 
-                                <div className='card'>
-                                    <img src='/images/code-companion.jpg' className='img-fluid' alt='code-companion-project'/>
-                                    <div className='px-3 pt-3 pb-2'>
-                                        <h4 className='fw-bold mt-2'>CODE COMPANION</h4>
-                                        <h5 className='text-muted'>March 2021</h5>
-                                    </div>
-                                    <p className='px-3'>It download test cases of coding problems from the platform and adds template according to your coding language.</p>
-                                    <div className='project-stack px-3'>
-                                        <button type="button">NodeJs</button>
-                                        <button type="button">JavaScript</button>
-                                        <button type="button">Puppeteer</button>
-                                        <button type="button">Automation</button>
-                                    </div>
-                                    <div className='read-more mt-4'>
-                                        <a href="https://github.com/saurabhkumar23/coding-companion" target='_blank' rel="noreferrer" type="button" className="btn btn-secondary fw-bold">Read More</a>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div className='card-container col-sm-12 col-md-3 my-3'>
-                        <div data-aos='fade-up'>
-                            <a href="https://github.com/saurabhkumar23/spotify-playlist-manager" target='_blank' rel="noreferrer"> 
-                                <div className='card'>
-                                    <img src='/images/spotify.png' className='img-fluid' alt='spotify-project'/>
-                                    <div className='px-3 pt-3 pb-2'>
-                                        <h4 className='fw-bold mt-2'>SPOTIFY PLAYLIST MANAGER</h4>
-                                        <h5 className='text-muted'>April 2021</h5>
-                                    </div>
-                                    <p className='px-3'>Automation script in nodejs which can manage your spotify playlist data.</p>
-                                    <div className='project-stack px-3'>
-                                        <button type="button">JavaScript</button>
-                                        <button type="button">Puppeteer</button>
-                                        <button type="button">NodeJs</button>
-                                        <button type="button">Automation</button>
-                                    </div>
-                                    <div className='read-more mt-4'>
-                                        <a href="https://github.com/saurabhkumar23/spotify-playlist-manager" target='_blank' rel="noreferrer" type="button" className="btn btn-secondary fw-bold">Read More</a>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div className='card-container col-sm-12 col-md-3 my-3'>
-                        <div data-aos='fade-up'>
-                            <a href="https://github.com/saurabhkumar23/youtube-playlist-duration" target='_blank' rel="noreferrer"> 
-                                <div className='card'>
-                                    <img src='/images/yt-playlist.png' className='img-fluid' alt='yt-playlist-project'/>
-                                    <div className='px-3 pt-3 pb-2'>
-                                        <h4 className='fw-bold mt-2'>YOUTUBE PLAYLIST DURATION</h4>
-                                        <h5 className='text-muted'>May 2021</h5>
-                                    </div>
-                                    <p className='px-3'>Automation script which give details about the content of a youtube playlist.</p>
-                                    <div className='project-stack px-3'>
-                                        <button type="button">JavaScript</button>
-                                        <button type="button">Puppeteer</button>
-                                        <button type="button">NodeJs</button>
-                                        <button type="button">Automation</button>
-                                    </div>
-                                    <div className='read-more mt-4'>
-                                        <a href="https://github.com/saurabhkumar23/youtube-playlist-duration" target='_blank' rel="noreferrer" type="button" className="btn btn-secondary fw-bold">Read More</a>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </section>
