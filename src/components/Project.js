@@ -2,7 +2,7 @@ import React from 'react'
 
 const Project = () => {
     return (
-        <>
+        <>  
         <section id='project' className='py-3 py-md-5'>
             <div className='container py-3 py-md-5'>
                 <h1 className='text-center mt-2 mb-2 mb-md-5' data-aos='fade-up'>PROJECTS</h1>
@@ -90,6 +90,31 @@ const Project = () => {
                         <div class="carousel-item">
                             {/* second 3 projects */}
                             <div className='row py-3 py-md-5 justify-content-evenly project-container'>
+                                <div className='card-container col-sm-12 col-md-3 my-3'>
+                                    <div data-aos='fade-up'>
+                                        <a href="https://saurabhkumar23.github.io/meme-generator/" target='_blank' rel="noreferrer"> 
+                                            <div className='card'>
+                                                <img src='/images/meme.png' className='img-fluid' alt='meme-gen-project'/>
+                                                <div className='px-3 pt-3 pb-2'>
+                                                    <h4 className='fw-bold mt-2'>MEME GENERATOR</h4>
+                                                    <h5 className='text-muted'>June 2021</h5>
+                                                </div>
+                                                <p className='px-3'>A flexible meme generating web application.</p>
+                                                <div className='project-stack px-3'>
+                                                    <button type="button">Html</button>
+                                                    <button type="button">Css</button>
+                                                    <button type="button">JavaScript</button>
+                                                    <button type="button">Canvas</button>
+                                                    <button type="button">Web speech API</button>
+                                                    <button type="button">Full screen API</button>
+                                                </div>
+                                                <div className='read-more mt-4'>
+                                                    <a href="https://github.com/saurabhkumar23/meme-generator" target='_blank' rel="noreferrer" type="button" className="btn btn-secondary fw-bold">Read More</a>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
                                 <div className='card-container col-sm-12 col-md-3 my-3'>
                                     <div data-aos='fade-up'>
                                         <a href="https://github.com/saurabhkumar23/winux" target='_blank' rel="noreferrer"> 
@@ -204,6 +229,31 @@ const Project = () => {
                                     </div>
                                     <div className='read-more mt-4'>
                                         <a href="https://github.com/saurabhkumar23/Awesome-Bots" target='_blank' rel="noreferrer" type="button" className="btn btn-secondary fw-bold">Read More</a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div className='card-container col-sm-12 col-md-3 my-3'>
+                        <div data-aos='fade-up'>
+                            <a href="https://saurabhkumar23.github.io/meme-generator/" target='_blank' rel="noreferrer"> 
+                                <div className='card'>
+                                    <img src='/images/meme.png' className='img-fluid' alt='meme-gen-project'/>
+                                    <div className='px-3 pt-3 pb-2'>
+                                        <h4 className='fw-bold mt-2'>MEME GENERATOR</h4>
+                                        <h5 className='text-muted'>June 2021</h5>
+                                    </div>
+                                    <p className='px-3'>A flexible meme generating web application.</p>
+                                    <div className='project-stack px-3'>
+                                        <button type="button">Html</button>
+                                        <button type="button">Css</button>
+                                        <button type="button">JavaScript</button>
+                                        <button type="button">Canvas</button>
+                                        <button type="button">Web speech API</button>
+                                        <button type="button">Full screen API</button>
+                                    </div>
+                                    <div className='read-more mt-4'>
+                                        <a href="https://github.com/saurabhkumar23/meme-generator" target='_blank' rel="noreferrer" type="button" className="btn btn-secondary fw-bold">Read More</a>
                                     </div>
                                 </div>
                             </a>
