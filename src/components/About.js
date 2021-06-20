@@ -50,7 +50,7 @@ const About = () => {
                             </div>
                         </div>
                         <div className='about-links mt-4 mt-md-5'>
-                            <a class="btn btn-dark me-2 me-md-4 bt1" href="https://drive.google.com/file/d/1RdepDrFbMqY-SAF5l1nyyzGdMHgo2VYZ/view?usp=sharing" target='_blank' rel="noreferrer" role="button">DOWNLOAD CV</a>
+                            <a class="btn btn-dark me-2 me-md-4 bt1" href="https://drive.google.com/file/d/1tOVEY69t9C2yTCDgmRyq39MUto49TV0O/view?usp=sharing" target='_blank' rel="noreferrer" role="button">DOWNLOAD CV</a>
                             <a class="btn btn-light border border-dark px-4 bt2" href="#contact" role="button">Contact Us</a>
                         </div>
                     </div>
