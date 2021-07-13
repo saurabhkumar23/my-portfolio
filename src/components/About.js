@@ -11,9 +11,9 @@ const About = () => {
 
                     <div className='col-sm-12 col-md-7 pt-md-3 about-me' data-aos='fade-up'>
                         <h1>About Me.</h1>
-                        <div className='profession'>
-                            <p><span>|</span> JAVASCRIPT DEVELOPER <span>|</span></p>
-                            <p>C++ PROGRAMMER <span>|</span></p>
+                        <div className='profession d-flex flex-column flex-md-row'>
+                            <p><span>|</span> JAVASCRIPT DEVELOPER <span>|</span> </p>
+                            <p>C++ PROGRAMMER</p>
                         </div>
                         <p className='myself px-1 px-md-0 py-4 fs-5'>Hi, I'm <span className='fw-bold'>Saurabh Kumar </span> 
                         pursuing my engineering in the field of information 

@@ -11,9 +11,9 @@ const Home = ({isAtTop}) => {
                             <br/>
                             Saurabh Kumar.
                         </h3>
-                        <div>
+                        <div className="d-flex flex-column flex-md-row">
                             <h6 className='pt-1 pt-md-3 mb-0'><span>|</span> JAVASCRIPT DEVELOPER <span>|</span></h6>
-                            <h6>C++ PROGRAMMER <span>|</span></h6>
+                            <h6 className='pt-1 pt-md-3 mb-0'>C++ PROGRAMMER <span>|</span></h6>
                         </div>
                         <a href='#about' type="button" className="btn btn-lg btn-dark mt-5 me-md-3 px-4 px-md-4 py-3 py-md-3 fw-bold">KNOW MORE <i className="fas fa-caret-down"></i></a>
                     </div>
