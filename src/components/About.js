@@ -45,7 +45,7 @@ const About = () => {
                             </div>
                             <div className='progress'>
                                 <div className='pro-value pro-value5'>
-                                    <p>NODEJS <span className='text-white float-end'>89%</span></p>
+                                    <p>NODEJS <span className='text-    white float-end'>89%</span></p>
                                 </div>
                             </div>
                         </div>
