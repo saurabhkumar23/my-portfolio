@@ -12,7 +12,7 @@ const Project = () => {
                         <div class="carousel-item active">
                             {/* first 3 projects */}
                             <div className='row py-3 py-md-5 justify-content-evenly project-container'>
-                                <div className='card-container my-3 col-sm-12 col-md-3'>
+                                <div className='card-container my-3 col-sm-5 col-lg-4 col-xl-3'>
                                     <div data-aos='fade-up'>
                                         <a href="https://umix.herokuapp.com/" target='_blank' rel="noreferrer"> 
                                             <div className='card'>
@@ -36,7 +36,7 @@ const Project = () => {
                                         </a>
                                     </div>
                                 </div>
-                                <div className='card-container col-sm-12 col-md-3 my-3'>
+                                <div className='card-container col-sm-9 col-lg-4 col-xl-3 my-3'>
                                     <div data-aos='fade-up'>
                                         <a href="https://laughing-borg-d700ef.netlify.app/" target='_blank' rel="noreferrer"> 
                                             <div className='card'>
@@ -60,7 +60,7 @@ const Project = () => {
                                         </a>
                                     </div>
                                 </div>
-                                <div className='card-container col-sm-12 col-md-3 my-3'>
+                                <div className='card-container col-sm-9 col-lg-4 col-xl-3 my-3'>
                                     <div data-aos='fade-up'>
                                         <a href="https://saurabhkumar23.github.io/Awesome-Bots/" target='_blank' rel="noreferrer"> 
                                             <div className='card'>
@@ -90,7 +90,7 @@ const Project = () => {
                         <div class="carousel-item">
                             {/* second 3 projects */}
                             <div className='row py-3 py-md-5 justify-content-evenly project-container'>
-                                <div className='card-container col-sm-12 col-md-3 my-3'>
+                                <div className='card-container col-sm-9 col-lg-4 col-xl-3 my-3'>
                                     <div data-aos='fade-up'>
                                         <a href="https://saurabhkumar23.github.io/meme-generator/" target='_blank' rel="noreferrer"> 
                                             <div className='card'>
@@ -115,7 +115,7 @@ const Project = () => {
                                         </a>
                                     </div>
                                 </div>
-                                <div className='card-container col-sm-12 col-md-3 my-3'>
+                                <div className='card-container col-sm-9 col-lg-4 col-xl-3 my-3'>
                                     <div data-aos='fade-up'>
                                         <a href="https://github.com/saurabhkumar23/winux" target='_blank' rel="noreferrer"> 
                                             <div className='card'>
@@ -161,7 +161,7 @@ const Project = () => {
             <div className='container py-3 py-md-5'>
                 <h1 className='text-center mt-2 mb-2 mb-md-5' data-aos='fade-up'>PROJECTS</h1>
                 <div className='row py-3 py-md-5 justify-content-evenly project-container'>
-                    <div className='card-container my-3 col-sm-12 col-md-3'>
+                    <div className='card-container my-3 col-sm-6'>
                         <div data-aos='fade-up'>
                             <a href="https://umix.herokuapp.com/" target='_blank' rel="noreferrer"> 
                                 <div className='card'>
@@ -185,7 +185,7 @@ const Project = () => {
                             </a>
                         </div>
                     </div>
-                    <div className='card-container col-sm-12 col-md-3 my-3'>
+                    <div className='card-container col-sm-6 my-3'>
                         <div data-aos='fade-up'>
                             <a href="https://laughing-borg-d700ef.netlify.app/" target='_blank' rel="noreferrer"> 
                                 <div className='card'>
@@ -209,7 +209,7 @@ const Project = () => {
                             </a>
                         </div>
                     </div>
-                    <div className='card-container col-sm-12 col-md-3 my-3'>
+                    <div className='card-container col-sm-6 my-3'>
                         <div data-aos='fade-up'>
                             <a href="https://saurabhkumar23.github.io/Awesome-Bots/" target='_blank' rel="noreferrer"> 
                                 <div className='card'>
@@ -234,7 +234,7 @@ const Project = () => {
                             </a>
                         </div>
                     </div>
-                    <div className='card-container col-sm-12 col-md-3 my-3'>
+                    <div className='card-container col-sm-6 my-3'>
                         <div data-aos='fade-up'>
                             <a href="https://saurabhkumar23.github.io/meme-generator/" target='_blank' rel="noreferrer"> 
                                 <div className='card'>
@@ -259,7 +259,7 @@ const Project = () => {
                             </a>
                         </div>
                     </div>
-                    <div className='card-container col-sm-12 col-md-3 my-3'>
+                    <div className='card-container col-sm-6 my-3'>
                         <div data-aos='fade-up'>
                             <a href="https://github.com/saurabhkumar23/winux" target='_blank' rel="noreferrer"> 
                                 <div className='card'>
