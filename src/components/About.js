@@ -5,13 +5,13 @@ const About = () => {
         <section id='about' className='py-3 py-md-5 bg-light'>
             <div className='container py-3 py-md-5'>
                 <div className='row'>
-                    <div className='col-sm-12 col-md-5 pic-container'>
+                    <div className='col-md-12 col-lg-5 col-xl-5 pic-container'>
                         <img src='/images/table.jpg' data-aos='fade-right' className='img-fluid' alt='central'/>
                     </div>
 
-                    <div className='col-sm-12 col-md-7 pt-md-3 about-me' data-aos='fade-up'>
+                    <div className='col-md-12 col-lg-7 col-xl-7 pt-md-3 about-me' data-aos='fade-up'>
                         <h1>About Me.</h1>
-                        <div className='profession d-flex flex-column flex-md-row'>
+                        <div className='profession d-flex flex-row'>
                             <p><span>|</span> JAVASCRIPT DEVELOPER <span>|</span> </p>
                             <p>C++ PROGRAMMER</p>
                         </div>
