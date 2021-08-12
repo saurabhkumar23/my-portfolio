@@ -14,6 +14,7 @@
             a{
                 border-radius: 40px;
                 transition: all 0.2s ease-in-out;
+                font-size: 1.25rem;
                 &:hover{
                     color: $darkColor !important;
                     background:$lightColor3 !important;
@@ -27,7 +28,14 @@
     ul.light-nav{
         background-color: rgba(0, 0, 0, 0.8);
     }
+}
 
+@media (max-width: 992px){
+    #nav-section{
+        ul li a{
+            font-size: 2.5vw !important;
+        }
+    }
 }
 
 @media (max-width: 576px){

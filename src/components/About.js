@@ -15,13 +15,13 @@ const About = () => {
                             <p><span>|</span> JAVASCRIPT DEVELOPER <span>|</span> </p>
                             <p>C++ PROGRAMMER</p>
                         </div>
-                        <p className='myself px-1 px-md-0 py-4 fs-5'>Hi, I'm <span className='fw-bold'>Saurabh Kumar </span> 
+                        <p className='myself px-1 px-md-0 py-4'>Hi, I'm <span className='fw-bold'>Saurabh Kumar </span> 
                         pursuing my engineering in the field of information 
                         technology from University school of information, communication, and technology, 
                         i have experiences in different programming languages like 
                         C, C++,Javascript, I am a full stack web developer. 
                         I create beautiful & functional web applications usually with nodejs.</p>
-                        <h2 className='fs-5 mb-3 my-md-4'>SKILLS</h2>
+                        <h2 className='mb-3 my-md-4'>SKILLS</h2>
                         <div className='progress-container'>
                             <div className='progress'>
                                 <div className='pro-value pro-value1'>
@@ -45,7 +45,7 @@ const About = () => {
                             </div>
                             <div className='progress'>
                                 <div className='pro-value pro-value5'>
-                                    <p>NODEJS <span className='text-    white float-end'>89%</span></p>
+                                    <p>NODEJS <span className='text-white float-end'>89%</span></p>
                                 </div>
                             </div>
                         </div>

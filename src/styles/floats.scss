@@ -1,24 +1,29 @@
-.float-links{
-    top: 26%;
-    right: 0;
+.floats-container{
+    height: 100vh;
     position: fixed;
+    right: 0;
     z-index: 1;
     background: transparent;
-    width: 60px;
-    a{
-        display: block;
-        margin: 10px 0;
-        font-size: 35px;
-        transition: all 0.3s ease-in-out;
-        color: $lightColor1;
-        &:hover{
-            transform: scale(1.5,1.5);
+    display: flex;
+    align-items: center;
+    .float-links{
+        width: 60px;
+        a{
+            display: block;
+            margin: 10px 0;
+            font-size: 35px;
+            transition: all 0.3s ease-in-out;
+            color: $lightColor1;
+            &:hover{
+                transform: scale(1.5,1.5);
+            }
+        }
+        a.makeColorDark{
+            color: $darkColor;
         }
     }
-    a.makeColorDark{
-        color: $darkColor;
-    }
 }
+
 
 #go-top{
     background: $lightColor3;
@@ -50,6 +55,14 @@
     box-shadow: 0px 1px 73px -5px rgba(0,0,0,0.75) inset;
     -webkit-box-shadow: 0px 1px 73px -5px rgba(0,0,0,0.75) inset;
     -moz-box-shadow: 0px 1px 73px -5px rgba(0,0,0,0.75) inset;
+}
+
+@media (max-width:992px){
+    .float-links{
+        a{
+            font-size: 4vw !important;
+        }
+    }
 }
 
 @media (max-width: 576px) {

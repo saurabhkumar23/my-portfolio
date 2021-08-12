@@ -17,6 +17,9 @@
             margin: 0 10px;
         }
     } 
+    .myself, h2{
+        font-size: 1.25rem;
+    }
     .progress{
         background-color: $lightColor2;
         justify-content: flex-start;
@@ -113,6 +116,20 @@
     }
     100%{
         width: 89%;
+    }
+}
+
+@media (max-width: 992px){
+    #about{
+        h1{
+            font-size: 5vw;
+        }
+        .profession p{
+            font-size: 1.6vw;
+        }
+        .myself, h2{
+            font-size: 2.5vw;
+        }
     }
 }
 

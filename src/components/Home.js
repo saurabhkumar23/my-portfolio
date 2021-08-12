@@ -12,10 +12,10 @@ const Home = ({isAtTop}) => {
     },[])
 
     return (
-        <section id='home' className='py-3 py-md-5'>
-            <div className='container py-3 py-md-5'>
-                <div className='row py-3 py-md-5'>
-                    <div className='col-sm-12 col-md-8 py-2 py-md-5 me-md-auto'>
+        <section id='home' className='py-5 d-flex align-items-center'>
+            <div className='container '>
+                <div className='row'>
+                    <div className='col-12 py-5 main-content'>
                         <h3>
                             <small>Hello, I'm</small>
                             <br/>
