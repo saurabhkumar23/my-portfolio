@@ -7,7 +7,7 @@ const Services = () => {
                 <h1 className='first-heading text-center pb-1 pb-md-3' data-aos='zoom-in'>SERVICES</h1>
                 <h1 className='second-heading text-center pb-1 pb-md-5' data-aos='zoom-in'>What Can I Do For You?</h1>                
                 <div className='row justify-content-evenly pb-3 services-container' data-aos='zoom-in'>
-                    <div className='col-sm-12 col-md-4 my-3'>
+                    <div className='col-sm-8 col-lg-4 my-3'>
                         <div className='card text-center py-3' data-aos='zoom-in'>
                             <div className='card-body py-2 py-md-4 px-3 px-md-5'>
                                 <div className='circle'>
@@ -22,7 +22,7 @@ const Services = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='col-sm-12 col-md-4 my-3'>
+                    <div className='col-sm-8 col-lg-4 my-3'>
                         <div className='card text-center py-3' data-aos='zoom-in'>
                             <div className='card-body py-2 py-md-4 px-3 px-md-5'>
                                 <div className='circle'>
