@@ -19,7 +19,6 @@
 #services {
   padding: 70px 0;
   background-color: #f8f9fa;
-  height: 100vh;
 }
 
 #services .heading {
@@ -101,5 +100,88 @@
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   margin-top: 70px;
+}
+
+@media (max-width: 992px) {
+  #services .heading {
+    font-size: 45px;
+  }
+  #services .sub-heading {
+    font-size: 30px;
+  }
+  #services .text {
+    font-size: 20px;
+    margin: 30px 0 10px 0;
+  }
+  #services .sub-text {
+    font-size: 14px;
+  }
+  #services .card {
+    width: 300px;
+    padding: 30px 35px 50px 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  #services .heading {
+    font-size: 35px;
+  }
+  #services .sub-heading {
+    font-size: 20px;
+  }
+  #services .text {
+    font-size: 17px;
+    margin: 30px 0 10px 0;
+  }
+  #services .sub-text {
+    font-size: 12px;
+  }
+  #services .card {
+    width: 250px;
+    padding: 30px 24px 50px 24px;
+  }
+}
+
+@media (max-width: 576px) {
+  #services .heading {
+    font-size: 7vw;
+  }
+  #services .sub-heading {
+    font-size: 4vw;
+  }
+  #services .text {
+    font-size: 4vw;
+    margin: 4vw 0 2vw 0;
+  }
+  #services .sub-text {
+    font-size: 2.5vw;
+  }
+  #services .card {
+    width: 58vw;
+    padding: 5vw 8vw 9vw 8vw;
+    margin-top: 4vw;
+  }
+  #services .card:hover .icon-container {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  #services .card-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 8vw;
+  }
+  #services .icon-container {
+    height: 12vw;
+    width: 12vw;
+    padding: 3vw;
+  }
+  #services .icon-container i {
+    font-size: 5vw;
+  }
 }
 /*# sourceMappingURL=test.css.map */
