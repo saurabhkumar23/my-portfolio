@@ -5,20 +5,7 @@
     box-sizing: border-box;
 }
 
-#services{
-    padding: 70px 0;
-    background-color: #f8f9fa;
-    .heading{
-        font-size: 60px;
-        font-weight: 900;
-        text-align: center;
-    }
-    .sub-heading{
-        letter-spacing: 3px;
-        font-weight: 300;
-        font-size: 45px;
-        text-align: center;
-    }
+@mixin services-and-contact-cards-styling{
     .text{
         font-size: 24px;
         font-weight: 700;
@@ -68,26 +55,64 @@
     }
 }
 
+@mixin services-and-contact-cards-992-styling{
+    .heading{
+        font-size: 45px !important;
+    }
+    .text{
+        font-size: 20px !important;
+        margin: 30px 0 10px 0 !important;
+    }
+    .sub-text{
+        font-size: 14px !important;
+    }
+    .card{
+        width: 300px !important;
+        padding: 30px 35px 50px 35px !important;
+    }
+}
+
+#services{
+    padding: 70px 0;
+    background-color: #f8f9fa;
+    .heading{
+        font-size: 60px;
+        font-weight: 900;
+        text-align: center;
+    }
+    .sub-heading{
+        letter-spacing: 3px;
+        font-weight: 300;
+        font-size: 45px;
+        text-align: center;
+    }
+    @include services-and-contact-cards-styling()
+}
+
+#contact{
+    padding: 70px 0;
+    .heading{
+        font-size: 60px;
+        font-weight: 900;
+        text-align: center;
+    }
+    @include services-and-contact-cards-styling();
+    .card{
+        box-shadow: none;
+    }
+}
+
 @media (max-width:992px){
     #services{
-        .heading{
-            font-size: 45px;
-        }
         .sub-heading{
             font-size: 30px;
         }
-        .text{
-            font-size: 20px;
-            margin: 30px 0 10px 0;
-        }
-        .sub-text{
-            font-size: 14px;
-        }
-        .card{
-            width: 300px;
-            padding: 30px 35px 50px 35px;
-        }
+        @include services-and-contact-cards-992-styling();
     }
+    #contact{
+        @include services-and-contact-cards-992-styling();
+    }
+    
 }
 
 @media (max-width:768px){
