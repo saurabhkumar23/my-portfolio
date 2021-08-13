@@ -185,6 +185,41 @@
           box-shadow: none;
 }
 
+#footer {
+  padding: 20px;
+  background-color: black;
+  color: #eae2e2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#footer ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+}
+
+#footer ul li {
+  font-size: 30px;
+  margin: 0 15px;
+}
+
+#footer ul li a {
+  color: #eae2e2;
+}
+
+#footer ul li a:hover {
+  color: #878282;
+}
+
 @media (max-width: 992px) {
   #services .sub-heading {
     font-size: 30px;
@@ -216,6 +251,12 @@
   #contact .card {
     width: 300px !important;
     padding: 30px 35px 50px 35px !important;
+  }
+  #footer .cr {
+    font-size: 15px;
+  }
+  #footer li {
+    font-size: 20px !important;
   }
 }
 
@@ -250,6 +291,12 @@
   #contact .card {
     width: 250px !important;
     padding: 30px 24px 50px 24px !important;
+  }
+  #footer .cr {
+    font-size: 13px;
+  }
+  #footer li {
+    font-size: 17px !important;
   }
 }
 
@@ -330,6 +377,18 @@
   }
   #contact .icon-container i {
     font-size: 5vw !important;
+  }
+  #footer {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    padding: 4vw;
+  }
+  #footer .cr {
+    font-size: 2.5vw;
+  }
+  #footer ul {
+    display: none !important;
   }
 }
 /*# sourceMappingURL=test.css.map */
