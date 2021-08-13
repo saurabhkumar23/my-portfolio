@@ -72,6 +72,57 @@
     }
 }
 
+@mixin services-and-contact-cards-768-styling{
+    .heading{
+        font-size: 35px !important;
+    }
+    .text{
+        font-size: 17px !important;
+        margin: 30px 0 10px 0 !important;
+    }
+    .sub-text{
+        font-size: 12px !important;
+    }
+    .card{
+        width: 250px !important;
+        padding: 30px 24px 50px 24px !important;
+    }
+}
+
+@mixin services-and-contact-cards-576-styling{
+    .heading{
+        font-size: 7vw !important;
+    }
+    .text{
+        font-size: 4vw !important;
+        margin: 4vw 0 2vw 0 !important;
+    }
+    .sub-text{
+        font-size: 2.5vw !important;
+    }
+    .card{
+        width: 58vw !important;
+        padding: 5vw 8vw 9vw 8vw !important;
+        margin-top: 4vw !important;
+        &:hover .icon-container{
+            transform: scale(1.1) !important;
+        }
+    }
+    .card-container{
+        flex-direction: column !important;
+        align-items: center !important;
+        margin-top: 8vw !important;
+    }
+    .icon-container{
+        height: 12vw !important;
+        width: 12vw !important;
+        padding: 3vw !important;
+        i{
+            font-size: 5vw !important;
+        }
+    }
+}
+
 #services{
     padding: 70px 0;
     background-color: #f8f9fa;
@@ -117,61 +168,24 @@
 
 @media (max-width:768px){
     #services{
-        .heading{
-            font-size: 35px;
-        }
         .sub-heading{
             font-size: 20px;
         }
-        .text{
-            font-size: 17px;
-            margin: 30px 0 10px 0;
-        }
-        .sub-text{
-            font-size: 12px;
-        }
-        .card{
-            width: 250px;
-            padding: 30px 24px 50px 24px;
-        }
+        @include services-and-contact-cards-768-styling();
+    }
+    #contact{
+        @include services-and-contact-cards-768-styling();
     }
 }
 
 @media (max-width:576px){
     #services{
-        .heading{
-            font-size: 7vw;
-        }
         .sub-heading{
             font-size: 4vw;
         }
-        .text{
-            font-size: 4vw;
-            margin: 4vw 0 2vw 0;
-        }
-        .sub-text{
-            font-size: 2.5vw;
-        }
-        .card{
-            width: 58vw;
-            padding: 5vw 8vw 9vw 8vw;
-            margin-top: 4vw;
-            &:hover .icon-container{
-                transform: scale(1.1);
-            }
-        }
-        .card-container{
-            flex-direction: column;
-            align-items: center;
-            margin-top: 8vw;
-        }
-        .icon-container{
-            height: 12vw;
-            width: 12vw;
-            padding: 3vw;
-            i{
-                font-size: 5vw;
-            }
-        }
+        @include services-and-contact-cards-576-styling();
+    }
+    #contact{
+        @include services-and-contact-cards-576-styling();
     }
 }
