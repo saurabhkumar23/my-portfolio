@@ -155,6 +155,16 @@
   color: #878282;
 }
 
+#home ul li a i {
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+#home ul li a i:hover {
+  -webkit-transform: scale(1.2) !important;
+          transform: scale(1.2) !important;
+}
+
 #home ul {
   padding: 0;
   margin-bottom: 40px;
@@ -368,6 +378,16 @@
 
 #footer ul li a:hover {
   color: #878282;
+}
+
+#footer ul li a i {
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+#footer ul li a i:hover {
+  -webkit-transform: scale(1.2) !important;
+          transform: scale(1.2) !important;
 }
 
 #about {

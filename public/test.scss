@@ -137,6 +137,13 @@
                 &:hover{
                     color: #878282;
                 }
+                i{
+                    transition: all 0.2s ease-in;
+                    &:hover{
+                        transform: scale(1.2) !important;
+                    }
+                }
+                
             }
         }
     }
