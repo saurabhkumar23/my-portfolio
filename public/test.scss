@@ -177,6 +177,113 @@
     }
 }
 
+#about{
+    padding: 70px 0;
+    background-color: #f8f9fa;
+    .image{
+        background-image: url('./images/table.jpg');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 40vw;
+    }
+    .right-info{
+        flex: 1;
+        padding-left: 50px;
+    }
+    .heading{
+        font-size: 60px;
+        font-weight: 900;
+    }
+    .cap{
+        letter-spacing: 2px;
+        font-weight: 400;
+        font-size: 15px;
+        margin: 20px 0 10px 0;
+        span{
+            color: #eae2e2;
+        }
+    }
+    .text{
+        font-size: 20px;
+        letter-spacing: 0.1px;
+    }
+    .flex-container{
+        display: flex;
+        padding: 0 8vw 0 2vw;
+    }
+    .skill-heading{
+        font-size: 25px;
+        font-weight: 900;
+        margin-top: 40px;
+    }
+    .text-flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    .scale{
+        height: 8px;
+        width: 100%;
+        background-color: #eae2e2;
+    }
+    .bg{
+        height: 100%;
+        background-color: black;
+    }
+    .skill:nth-of-type(1) .bg{
+        width: 90%;
+    }
+    .skill:nth-of-type(2) .bg{
+        width: 85%;
+    }
+    .skill:nth-of-type(3) .bg{
+        width: 90%;
+    }
+    .skill:nth-of-type(4) .bg{
+        width: 80%;
+    }
+    .skill:nth-of-type(5) .bg{
+        width: 87%;
+    }
+    .skill:nth-of-type(6) .bg{
+        width: 85%;
+    }
+    .skill:nth-of-type(7) .bg{
+        width: 75%;
+    }
+    .skill{
+        margin: 15px 0;
+    }
+    .btns{
+        padding: 70px 0 10px 0;
+    }
+    a{
+        padding: 15px 30px;
+        border: none;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .cv{
+        background-color: black;
+        border: 1px solid black;
+        color: white;
+        margin-right: 30px;
+        &:hover{
+            background-color: transparent;
+            color: black;
+            transition: 0.3s;
+        }
+    }
+    .contact{
+        color: black;
+        &:hover{
+            background-color: black;
+            color: white;
+            transition: 0.3s;
+        }
+    }
+}
+
 @media (max-width:992px){
     #services{
         .sub-heading{
@@ -186,6 +293,34 @@
     }
     #contact{
         @include services-and-contact-cards-992-styling();
+    }
+    #about{
+        .heading{
+            font-size: 45px !important;
+        }
+        .flex-container{
+            padding-right: 8vw;
+        }
+        .cap{
+            font-size: 12px;
+        }
+        .text{
+            font-size: 15px;
+        }
+        .skill-heading{
+            font-size: 20px;
+        }
+        .text-flex{
+            font-size: 14px;
+        }
+        .btns{
+            padding-top: 40px;
+            padding-bottom: 0;
+        }
+        a{
+            padding: 9px 18px;
+            font-size: 12px;
+        }
     }
     #footer{
         .cr{
@@ -207,6 +342,20 @@
     #contact{
         @include services-and-contact-cards-768-styling();
     }
+    #about{
+        .flex-container{
+            flex-direction: column;
+            padding: 0 8vw;
+        }
+        .image{
+            height: 40vw;
+            width: 100%;
+            margin-bottom: 6vw;
+        }
+        .right-info{
+            padding-left: 0;
+        }
+    }
     #footer{
         .cr{
             font-size: 13px;
@@ -226,6 +375,42 @@
     }
     #contact{
         @include services-and-contact-cards-576-styling();
+    }
+    #about{
+        .heading{
+            font-size: 7vw !important;
+        }
+        .cap{
+            font-size: 2.5vw;
+            margin: 2vw 0 1vw 0;
+        }
+        .text{
+            font-size: 2.8vw;
+        }
+        .skill-heading{
+            font-size: 3.4vw;
+            margin-top: 7vw;
+        }
+        .skill{
+            margin: 2vw 0;
+        }
+        .text-flex{
+            font-size: 2.8vw;
+        }
+        .scale{
+            height: 1.4vw;
+        }
+        .btns{
+            padding-top: 8vw;
+            padding-bottom: 0;
+        }
+        a{
+            padding: 2vw 4vw;
+            font-size: 2.5vw;
+        }
+        .cv{
+            margin-right: 3vw;
+        }
     }
     #footer{
         justify-content: start;

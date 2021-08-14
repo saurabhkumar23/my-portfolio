@@ -220,6 +220,148 @@
   color: #878282;
 }
 
+#about {
+  padding: 70px 0;
+  background-color: #f8f9fa;
+}
+
+#about .image {
+  background-image: url("./images/table.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 40vw;
+}
+
+#about .right-info {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding-left: 50px;
+}
+
+#about .heading {
+  font-size: 60px;
+  font-weight: 900;
+}
+
+#about .cap {
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 15px;
+  margin: 20px 0 10px 0;
+}
+
+#about .cap span {
+  color: #eae2e2;
+}
+
+#about .text {
+  font-size: 20px;
+  letter-spacing: 0.1px;
+}
+
+#about .flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 8vw 0 2vw;
+}
+
+#about .skill-heading {
+  font-size: 25px;
+  font-weight: 900;
+  margin-top: 40px;
+}
+
+#about .text-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#about .scale {
+  height: 8px;
+  width: 100%;
+  background-color: #eae2e2;
+}
+
+#about .bg {
+  height: 100%;
+  background-color: black;
+}
+
+#about .skill:nth-of-type(1) .bg {
+  width: 90%;
+}
+
+#about .skill:nth-of-type(2) .bg {
+  width: 85%;
+}
+
+#about .skill:nth-of-type(3) .bg {
+  width: 90%;
+}
+
+#about .skill:nth-of-type(4) .bg {
+  width: 80%;
+}
+
+#about .skill:nth-of-type(5) .bg {
+  width: 87%;
+}
+
+#about .skill:nth-of-type(6) .bg {
+  width: 85%;
+}
+
+#about .skill:nth-of-type(7) .bg {
+  width: 75%;
+}
+
+#about .skill {
+  margin: 15px 0;
+}
+
+#about .btns {
+  padding: 70px 0 10px 0;
+}
+
+#about a {
+  padding: 15px 30px;
+  border: none;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#about .cv {
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  margin-right: 30px;
+}
+
+#about .cv:hover {
+  background-color: transparent;
+  color: black;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#about .contact {
+  color: black;
+}
+
+#about .contact:hover {
+  background-color: black;
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
 @media (max-width: 992px) {
   #services .sub-heading {
     font-size: 30px;
@@ -251,6 +393,32 @@
   #contact .card {
     width: 300px !important;
     padding: 30px 35px 50px 35px !important;
+  }
+  #about .heading {
+    font-size: 45px !important;
+  }
+  #about .flex-container {
+    padding-right: 8vw;
+  }
+  #about .cap {
+    font-size: 12px;
+  }
+  #about .text {
+    font-size: 15px;
+  }
+  #about .skill-heading {
+    font-size: 20px;
+  }
+  #about .text-flex {
+    font-size: 14px;
+  }
+  #about .btns {
+    padding-top: 40px;
+    padding-bottom: 0;
+  }
+  #about a {
+    padding: 9px 18px;
+    font-size: 12px;
   }
   #footer .cr {
     font-size: 15px;
@@ -291,6 +459,21 @@
   #contact .card {
     width: 250px !important;
     padding: 30px 24px 50px 24px !important;
+  }
+  #about .flex-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 8vw;
+  }
+  #about .image {
+    height: 40vw;
+    width: 100%;
+    margin-bottom: 6vw;
+  }
+  #about .right-info {
+    padding-left: 0;
   }
   #footer .cr {
     font-size: 13px;
@@ -377,6 +560,40 @@
   }
   #contact .icon-container i {
     font-size: 5vw !important;
+  }
+  #about .heading {
+    font-size: 7vw !important;
+  }
+  #about .cap {
+    font-size: 2.5vw;
+    margin: 2vw 0 1vw 0;
+  }
+  #about .text {
+    font-size: 2.8vw;
+  }
+  #about .skill-heading {
+    font-size: 3.4vw;
+    margin-top: 7vw;
+  }
+  #about .skill {
+    margin: 2vw 0;
+  }
+  #about .text-flex {
+    font-size: 2.8vw;
+  }
+  #about .scale {
+    height: 1.4vw;
+  }
+  #about .btns {
+    padding-top: 8vw;
+    padding-bottom: 0;
+  }
+  #about a {
+    padding: 2vw 4vw;
+    font-size: 2.5vw;
+  }
+  #about .cv {
+    margin-right: 3vw;
   }
   #footer {
     -webkit-box-pack: start;
