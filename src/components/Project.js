@@ -1,6 +1,9 @@
 import React from 'react'
 
 const Project = () => {
+
+    const data = []
+    
     return (
         <>  
         <section id='project' className='py-3 py-md-5'>
@@ -288,5 +291,47 @@ const Project = () => {
         </>
     )
 }
+
+
+
+
+// import Swiper core and required modules
+import SwiperCore, { Navigation, Pagination, Scrollbar, A11y ,Autoplay} from 'swiper';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/swiper.scss';
+import 'swiper/components/navigation/navigation.scss';
+import 'swiper/components/pagination/pagination.scss';
+import 'swiper/components/scrollbar/scrollbar.scss';
+
+// install Swiper modules
+SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Autoplay]);
+
+const Project = () => {
+    return (
+        <Swiper
+        spaceBetween={50}
+        slidesPerView={3}
+        navigation={true}
+        pagination={{ clickable: true }}
+        autoplay={{
+            "delay": 2500,
+            "disableOnInteraction": false
+        }}
+        onSlideChange={() => console.log('slide change')}
+        onSwiper={(swiper) => console.log(swiper)}
+        >
+        <SwiperSlide>Slide 1</SwiperSlide>
+        <SwiperSlide>Slide 2</SwiperSlide>
+        <SwiperSlide>Slide 3</SwiperSlide>
+        <SwiperSlide>Slide 4</SwiperSlide>
+        <SwiperSlide>Slide 5</SwiperSlide>
+        <SwiperSlide>Slide 6</SwiperSlide>
+        <SwiperSlide>Slide 7</SwiperSlide>
+        </Swiper>
+    );
+};
 
 export default Project
