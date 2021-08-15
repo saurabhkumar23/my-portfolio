@@ -10,6 +10,9 @@ import 'swiper/swiper.scss';
 import 'swiper/components/navigation/navigation.scss';
 import 'swiper/components/pagination/pagination.scss';
 import 'swiper/components/scrollbar/scrollbar.scss';
+// Import Swiper styles
+import "swiper/swiper.min.css";
+import "swiper/components/pagination/pagination.min.css"
 
 // install Swiper modules
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Autoplay]);
@@ -56,6 +59,7 @@ const Project = () => {
     ]
 
     return (
+        <section id='project'>
         <Swiper
         spaceBetween={50}
         slidesPerView={3}
@@ -65,17 +69,37 @@ const Project = () => {
             "delay": 2500,
             "disableOnInteraction": false
         }}
+        breakpoints={{
+            "0": {
+                "slidesPerView": 1,
+                "spaceBetween": 20
+            },
+            "576": {
+                "slidesPerView": 2,
+                "spaceBetween": 20
+            },
+            "762": {
+                "slidesPerView": 3,
+                "spaceBetween": 40
+            }
+        }}
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}
         >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
+            {
+                data.map((project) => (
+                    <SwiperSlide>
+                        <div className='card-container'>
+                            <div className='image'><img src={project.img}/></div>
+                            <div className='name'>{project.name}</div>
+                            <div className='created'>{project.created}</div>
+                            <div className='desc'>{project.desc}</div>
+                        </div>
+                    </SwiperSlide>
+                ))
+            }
         </Swiper>
+        </section>
     );
 };
 

@@ -1,0 +1,15 @@
+#project .card-container {
+  height: 500px;
+  width: 300px;
+  border: 1px solid;
+}
+
+#project .image {
+  height: 300px;
+}
+
+#project .image img {
+  width: 100%;
+  height: inherit;
+}
+/*# sourceMappingURL=project.css.map */
