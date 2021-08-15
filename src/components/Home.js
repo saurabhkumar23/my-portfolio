@@ -1,5 +1,6 @@
 import React,{useEffect} from 'react'
 import Typewriter from 'typewriter-effect/dist/core';
+import Particles from 'react-particles-js';
 
 const Home = ({isAtTop}) => {
 
@@ -12,22 +13,46 @@ const Home = ({isAtTop}) => {
     },[])
 
     return (
-        <section id='home' className='py-5 d-flex align-items-center'>
-            <div className='container '>
-                <div className='row'>
-                    <div className='col-12 py-5 main-content'>
-                        <h3>
-                            <small>Hello, I'm</small>
-                            <br/>
-                            Saurabh Kumar.
-                            <br/>
-                            <small className="profession">And I'm a <span id="typewriter"></span></small>
-                        </h3>
-                        <a href='#about' type="button" className="btn btn-lg mt-5 me-md-3 px-4 px-md-4 py-3 py-md-3 fw-bold">KNOW MORE <i className="fas fa-caret-down"></i></a>
+        <>
+        <Particles
+        params={{
+            particles: {
+                number: {
+                    value: 40,
+                    density: {
+                        enable: true,
+                        value_area: 900
+                    }
+                },
+                shape: {
+                    type: 'circle',
+                    stroke: {
+                        width: 6,
+                        color: '#eae2e2'
+                    }
+                }
+            }
+        }}
+        />
+            <section id='home' className='py-5 d-flex align-items-center'>
+                <div className='container '>
+                    <div className='row'>
+                        <div className='col-12 py-5 main-content'>
+                            <h3>
+                                <small>Hello, I'm</small>
+                                <br/>
+                                Saurabh Kumar.
+                                <br/>
+                                <small className="profession">And I'm a <span id="typewriter"></span></small>
+                            </h3>
+                            <a href='#about' type="button" className="btn btn-lg mt-5 me-md-3 px-4 px-md-4 py-3 py-md-3 fw-bold">KNOW MORE <i className="fas fa-caret-down"></i></a>
+                        </div>
                     </div>
-                </div>
-            </div> 
-        </section>
+                </div> 
+            </section>
+        </>
+        
+        
     )
 }
 
