@@ -115,9 +115,10 @@ body {
 }
 
 #home .heading-1 {
-  font-size: 4.5vw;
+  font-size: 3.4vw;
   line-height: 7vw;
   font-weight: 400;
+  margin-top: 6vw;
 }
 
 #home .heading-2 {
@@ -171,7 +172,7 @@ body {
 }
 
 #home ul li {
-  font-size: 6.5vw;
+  font-size: 3.5vw;
   margin: 0 4vw;
 }
 
@@ -400,6 +401,7 @@ body {
 }
 
 #about .image {
+  background-image: url("https://res.cloudinary.com/getgrouped/image/upload/v1629126086/table_cveurz.jpg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;

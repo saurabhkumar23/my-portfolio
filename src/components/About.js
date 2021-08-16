@@ -21,7 +21,7 @@ const About = () => {
                     <div className="skill">
                         <div className="text-flex">
                             <div>JavaScript</div>
-                            <div>90%</div>
+                            <div style={{'fontWeight':'bold'}}>90%</div>
                         </div>
                         <div className="scale">
                             <div className="bg"></div>
@@ -30,7 +30,7 @@ const About = () => {
                     <div className="skill">
                         <div className="text-flex">
                             <div>ReactJs</div>
-                            <div>85%</div>
+                            <div style={{'fontWeight':'bold'}}>85%</div>
                         </div>
                         <div className="scale">
                             <div className="bg"></div>
@@ -39,7 +39,7 @@ const About = () => {
                     <div className="skill">
                         <div className="text-flex">
                             <div>Css</div>
-                            <div>90%</div>
+                            <div style={{'fontWeight':'bold'}}>90%</div>
                         </div>
                         <div className="scale">
                             <div className="bg"></div>
@@ -48,7 +48,7 @@ const About = () => {
                     <div className="skill">
                         <div className="text-flex">
                             <div>NodeJs</div>
-                            <div>80%</div>
+                            <div style={{'fontWeight':'bold'}}>80%</div>
                         </div>
                         <div className="scale">
                             <div className="bg"></div>
@@ -57,7 +57,7 @@ const About = () => {
                     <div className="skill">
                         <div className="text-flex">
                             <div>C++</div>
-                            <div>87%</div>
+                            <div style={{'fontWeight':'bold'}} >87%</div>
                         </div>
                         <div className="scale">
                             <div className="bg"></div>
@@ -66,7 +66,7 @@ const About = () => {
                     <div className="skill">
                         <div className="text-flex">
                             <div>Html</div>
-                            <div>85%</div>
+                            <div style={{'fontWeight':'bold'}}>85%</div>
                         </div>
                         <div className="scale">
                             <div className="bg"></div>
@@ -75,7 +75,7 @@ const About = () => {
                     <div className="skill">
                         <div className="text-flex">
                             <div>MongoDb</div>
-                            <div>75%</div>
+                            <div style={{'fontWeight':'bold'}}>75%</div>
                         </div>
                         <div className="scale">
                             <div className="bg"></div>
