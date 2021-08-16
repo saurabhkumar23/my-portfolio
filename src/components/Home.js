@@ -34,21 +34,21 @@ const Home = ({isAtTop}) => {
             }
         }}
         />
-            <section id='home' className='py-5 d-flex align-items-center'>
-                <div className='container '>
-                    <div className='row'>
-                        <div className='col-12 py-5 main-content'>
-                            <h3>
-                                <small>Hello, I'm</small>
-                                <br/>
-                                Saurabh Kumar.
-                                <br/>
-                                <small className="profession">And I'm a <span id="typewriter"></span></small>
-                            </h3>
-                            <a href='#about' type="button" className="btn btn-lg mt-5 me-md-3 px-4 px-md-4 py-3 py-md-3 fw-bold">KNOW MORE <i className="fas fa-caret-down"></i></a>
-                        </div>
-                    </div>
-                </div> 
+            <section id='home'>
+                <div className="texts">
+                    <div className="heading-1">Hello, I'm</div>
+                    <div className="heading-2">Saurabh Kumar.</div>
+                    <div className="heading-3"><span id="typewriter"></span></div>
+                </div>
+                <div className="links">
+                    <ul>
+                        <li><a href="https://www.facebook.com/profile.php?id=100043503769012" target='_blank' rel="noreferrer"><i className="fab fa-facebook"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/saurabh2773" target='_blank' rel="noreferrer"><i className="fab fa-linkedin"></i></a></li>
+                        <li><a href="https://twitter.com/Saurabh2773" target='_blank' rel="noreferrer"><i className="fab fa-twitter"></i></a></li>
+                        <li><a href="https://github.com/saurabhkumar23" target='_blank' rel="noreferrer"><i className="fab fa-github"></i></a></li>
+                        <li><a href="https://www.instagram.com/saurabh.2773" target='_blank' rel="noreferrer"><i className="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
             </section>
         </>
         
