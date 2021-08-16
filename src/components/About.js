@@ -2,61 +2,95 @@ import React from 'react'
 
 const About = () => {
     return (
-        <section id='about' className='py-3 py-md-5 bg-light'>
-            <div className='container py-3 py-md-5'>
-                <div className='row'>
-                    <div className='col-md-12 col-lg-5 col-xl-5 pic-container'>
-                        <img src='/images/table.jpg' data-aos='fade-right' className='img-fluid' alt='central'/>
+        <section id='about'>
+        <div className="flex-container">
+            <div className="image" data-aos='fade-right'></div>
+            <div className="right-info"  data-aos='fade-up'>
+                <div className="heading">About Me.</div>
+                <div className="cap"><span>|</span> JAVASCRIPT DEVELOPER <span>|</span> C++ PROGRAMMER</div>
+                <div className="text">
+                    Hi, I'm <span className='fw-bold'>Saurabh Kumar </span> 
+                    pursuing my engineering in the field of information 
+                    technology from University school of information, communication, and technology, 
+                    i have experiences in different programming languages like 
+                    C, C++,Javascript, I am a full stack web developer. 
+                    I create beautiful & functional web applications usually with nodejs.
+                </div>
+                <div className="skill-heading">SKILLS</div>
+                <div className="skill-container">
+                    <div className="skill">
+                        <div className="text-flex">
+                            <div>JavaScript</div>
+                            <div>90%</div>
+                        </div>
+                        <div className="scale">
+                            <div className="bg"></div>
+                        </div>
                     </div>
-
-                    <div className='col-md-12 col-lg-7 col-xl-7 pt-md-3 about-me' data-aos='fade-up'>
-                        <h1>About Me.</h1>
-                        <div className='profession d-flex flex-row'>
-                            <p><span>|</span> JAVASCRIPT DEVELOPER <span>|</span> </p>
-                            <p>C++ PROGRAMMER</p>
+                    <div className="skill">
+                        <div className="text-flex">
+                            <div>ReactJs</div>
+                            <div>85%</div>
                         </div>
-                        <p className='myself px-1 px-md-0 py-4'>Hi, I'm <span className='fw-bold'>Saurabh Kumar </span> 
-                        pursuing my engineering in the field of information 
-                        technology from University school of information, communication, and technology, 
-                        i have experiences in different programming languages like 
-                        C, C++,Javascript, I am a full stack web developer. 
-                        I create beautiful & functional web applications usually with nodejs.</p>
-                        <h2 className='mb-3 my-md-4'>SKILLS</h2>
-                        <div className='progress-container'>
-                            <div className='progress'>
-                                <div className='pro-value pro-value1'>
-                                    <p>C++ <span className='text-white float-end'>92%</span></p>
-                                </div>
-                            </div>
-                            <div className='progress my-3'>
-                                <div className='pro-value pro-value2'>
-                                    <p>HTML / CSS <span className='text-white float-end'>95%</span></p>
-                                </div>
-                            </div>
-                            <div className='progress'>
-                                <div className='pro-value pro-value3'>
-                                    <p>JAVASCRIPT <span className='text-white float-end'>74%</span></p>
-                                </div>
-                            </div>
-                            <div className='progress my-3'>
-                                <div className='pro-value pro-value4'>
-                                    <p>REACTJS <span className='text-white float-end'>85%</span></p>
-                                </div>
-                            </div>
-                            <div className='progress'>
-                                <div className='pro-value pro-value5'>
-                                    <p>NODEJS <span className='text-white float-end'>89%</span></p>
-                                </div>
-                            </div>
+                        <div className="scale">
+                            <div className="bg"></div>
                         </div>
-                        <div className='about-links mt-4 mt-md-5'>
-                            <a class="btn btn-dark me-2 me-md-4 bt1" href="https://drive.google.com/file/d/1ou0RppL1YmgEEi8DDTiP27hBQpsfrwPW/view?usp=sharing" target='_blank' rel="noreferrer" role="button">DOWNLOAD CV</a>
-                            <a class="btn btn-light border border-dark px-4 bt2" href="#contact" role="button">Contact Us</a>
+                    </div>
+                    <div className="skill">
+                        <div className="text-flex">
+                            <div>Css</div>
+                            <div>90%</div>
+                        </div>
+                        <div className="scale">
+                            <div className="bg"></div>
+                        </div>
+                    </div>
+                    <div className="skill">
+                        <div className="text-flex">
+                            <div>NodeJs</div>
+                            <div>80%</div>
+                        </div>
+                        <div className="scale">
+                            <div className="bg"></div>
+                        </div>
+                    </div>
+                    <div className="skill">
+                        <div className="text-flex">
+                            <div>C++</div>
+                            <div>87%</div>
+                        </div>
+                        <div className="scale">
+                            <div className="bg"></div>
+                        </div>
+                    </div>
+                    <div className="skill">
+                        <div className="text-flex">
+                            <div>Html</div>
+                            <div>85%</div>
+                        </div>
+                        <div className="scale">
+                            <div className="bg"></div>
+                        </div>
+                    </div>
+                    <div className="skill">
+                        <div className="text-flex">
+                            <div>MongoDb</div>
+                            <div>75%</div>
+                        </div>
+                        <div className="scale">
+                            <div className="bg"></div>
                         </div>
                     </div>
                 </div>
+                <div className="btns">
+                    <a className="cv" href="https://drive.google.com/file/d/1ou0RppL1YmgEEi8DDTiP27hBQpsfrwPW/view?usp=sharing">
+                        Download C.V.
+                    </a>
+                    <a className="contact" href="#contact">Contact Me.</a>
+                </div>
             </div>
-        </section>
+        </div>
+    </section>
     )
 }
 
