@@ -1,7 +1,7 @@
 import React,{useEffect,useState} from 'react'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
-import './styles/App.scss'
+import './styles/style.css'
 import Floats from './components/Floats'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
@@ -30,7 +30,7 @@ const App = () => {
 
     return (
         <>
-            <Floats isAtTop={isAtTop}/>
+            {/* <Floats isAtTop={isAtTop}/> */}
             <Navbar isAtTop={isAtTop}/> 
             <Home isAtTop={isAtTop}/>
             <About/>
