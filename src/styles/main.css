@@ -703,6 +703,14 @@ body {
 }
 
 @media (max-width: 768px) {
+  #nav-section li {
+    margin: 1.4vw !important;
+    padding: 1vw !important;
+  }
+  #nav-section a {
+    font-size: 2.2vw !important;
+    padding: 1vw !important;
+  }
   #services .sub-heading {
     font-size: 20px;
   }
@@ -911,6 +919,33 @@ body {
   #go-top:hover {
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
+  }
+}
+
+@media (max-width: 480px) {
+  #nav-section li {
+    margin: 0.7vw !important;
+    padding: 0.7vw !important;
+  }
+  #nav-section a {
+    font-size: 3vw !important;
+    padding: 1.4vw !important;
+  }
+  #home .heading-1 {
+    font-size: 4.5vw;
+    line-height: 6vw;
+  }
+  #home .heading-2 {
+    font-size: 10vw;
+    line-height: 14vw;
+  }
+  #home .heading-3 {
+    font-size: 5vw;
+    line-height: 6vw;
+  }
+  #home ul li {
+    font-size: 6vw;
+    margin-bottom: 10vw;
   }
 }
 /*# sourceMappingURL=main.css.map */
