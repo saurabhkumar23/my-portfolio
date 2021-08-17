@@ -83,7 +83,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="btns">
-                    <a className="cv" href="https://drive.google.com/file/d/1ou0RppL1YmgEEi8DDTiP27hBQpsfrwPW/view?usp=sharing">
+                    <a className="cv" href="https://drive.google.com/file/d/1ou0RppL1YmgEEi8DDTiP27hBQpsfrwPW/view?usp=sharing" target='_blank'>
                         Download C.V.
                     </a>
                     <a className="contact" href="#contact">Contact Me.</a>

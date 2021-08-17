@@ -91,13 +91,14 @@ const Project = () => {
                 data.map((project) => (
                     <SwiperSlide>
                         <div className='card-container'>
-                            <div className='image'><img src={project.img}/></div>
-                            <div className='content'>
-                                <div className='name'>{project.name}</div>
-                                <div className='created'>{project.created}</div>
-                                <div className='desc'>{project.desc}</div>
-                            </div>
-                            
+                            <a href={project.gitlink} style={{'textDecoration':'none'}} target='_blank'>
+                                <div className='image'><img src={project.img}/></div>
+                                <div className='content'>
+                                    <div className='name'>{project.name}</div>
+                                    <div className='created'>{project.created}</div>
+                                    <div className='desc'>{project.desc}</div>
+                                </div>
+                            </a>
                         </div>
                     </SwiperSlide>
                 ))
