@@ -691,16 +691,24 @@ body{
             font-size: 9vw !important;
         }
         .text{
-            font-size: 3.5vw;
+            font-size: 4vw;
+            line-height: 5.7vw;
         }
         .skill-heading{
             font-size: 6vw;
         }
-        .text-flex{
-            font-size: 3.5vw;
+        .skill{
+            margin: 4vw 0;
         }
-        .btns a{
-            font-size: 3.5vw;
+        .text-flex{
+            font-size: 3.7vw;
+        }
+        .btns{
+            padding-top: 12vw;
+            a{
+                font-size: 4vw;
+            }
+            
         }
     }
 }
