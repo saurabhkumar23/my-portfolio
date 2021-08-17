@@ -980,5 +980,70 @@ body {
     height: 55vw;
     margin-bottom: 45px;
   }
+  #about .cap {
+    font-size: 3vw;
+    letter-spacing: 0.3vw;
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+  #contact .heading {
+    font-size: 9vw !important;
+  }
+  #contact .card {
+    width: 70vw !important;
+  }
+  #contact .card .text {
+    font-size: 5vw !important;
+  }
+  #contact .card .sub-text {
+    font-size: 4vw !important;
+    line-height: 6.5vw !important;
+  }
+  #contact .card-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #services .heading {
+    font-size: 9vw !important;
+  }
+  #services .sub-heading {
+    font-size: 5vw !important;
+  }
+  #services .card {
+    width: 70vw !important;
+    background-color: white;
+    padding: 10vw 5vw 15vw 5vw !important;
+  }
+  #services .card .text {
+    font-size: 5vw !important;
+  }
+  #services .card .sub-text {
+    font-size: 4vw !important;
+    line-height: 6.5vw !important;
+  }
+  #services .card-2 {
+    margin-top: 10vw !important;
+  }
+  #services .icon-container {
+    height: 15vw !important;
+    width: 15vw !important;
+  }
+  #services .icon-container i {
+    font-size: 7vw !important;
+  }
+  #footer .cr {
+    font-size: 4vw !important;
+  }
+  .floats-container {
+    display: none;
+  }
 }
 /*# sourceMappingURL=main.css.map */

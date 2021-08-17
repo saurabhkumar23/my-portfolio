@@ -718,5 +718,69 @@ body{
             height: 55vw;
             margin-bottom: 45px;
         }
+        .cap{
+            font-size: 3vw;
+            letter-spacing: 0.3vw;
+            margin-bottom: 20px;
+            margin-top: 0;
+        }
+    }
+    #contact{
+        .heading{
+            font-size: 9vw !important;
+        }
+        .card{
+            width: 70vw !important;
+            .text{
+                font-size: 5vw !important;
+            }
+            .sub-text{
+                font-size: 4vw !important;
+                line-height: 6.5vw !important;
+            }
+        }
+        .card-2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    #services{
+        .heading{
+            font-size: 9vw !important;
+        }
+        .sub-heading{
+            font-size: 5vw !important;
+        }
+        .card{
+            width: 70vw !important;
+            background-color: white;
+            padding: 10vw 5vw 15vw 5vw !important;
+            .text{
+                font-size: 5vw !important;
+            }
+            .sub-text{
+                font-size: 4vw !important;
+                line-height: 6.5vw !important;
+            }
+        }
+        .card-2{
+            margin-top: 10vw !important;
+        }
+        .icon-container{
+            height: 15vw !important;
+            width: 15vw !important;
+            i{
+                font-size: 7vw !important;
+            }
+        }
+    }
+    #footer{
+        .cr{
+            font-size: 4vw !important;
+        }
+    }
+    .floats-container{
+        display: none;
     }
 }
