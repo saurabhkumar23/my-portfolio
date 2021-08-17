@@ -35,7 +35,7 @@ const Project = () => {
             gitlink : 'https://github.com/saurabhkumar23/Awesome-Bots',
             img : '/images/automation.png',
             created : 'March 2021',
-            desc : 'Automation scripts which helps to speed up common tasks to lift productivity. visit github to read more about those tools.',
+            desc : 'Automation scripts which helps to speed up common tasks to lift productivity.',
             stacks : ['Puppeteer','Html','NodeJs','Css']
         },
         {
@@ -44,7 +44,7 @@ const Project = () => {
             gitlink : 'https://github.com/saurabhkumar23/meme-generator',
             img : '/images/meme.png',
             created : 'June 2021',
-            desc : 'A flexible meme generating web application.',
+            desc : 'A flexible meme generating web application using Html Canvas.',
             stacks : ['CanvasAPI','JavaScript','Html','Css','Web speech API','Full screen API']
         },
         {
@@ -53,13 +53,14 @@ const Project = () => {
             gitlink : 'https://github.com/saurabhkumar23/winux',
             img : '/images/winux.png',
             created : 'January 2021',
-            desc : 'A NodeJs script which allows us to run bash like commands on windows operating system.',
+            desc : 'A NodeJs script which allows us to run bash like commands on windows OS.',
             stacks : ['NodeJS','Bash','JavaScript']
         }
     ]
 
     return (
         <section id='project'>
+        <div className="heading">PROJECTS</div>
         <Swiper
         spaceBetween={50}
         slidesPerView={3}
@@ -74,11 +75,11 @@ const Project = () => {
                 "slidesPerView": 1,
                 "spaceBetween": 20
             },
-            "576": {
+            "480": {
                 "slidesPerView": 2,
                 "spaceBetween": 20
             },
-            "762": {
+            "992": {
                 "slidesPerView": 3,
                 "spaceBetween": 40
             }
@@ -91,9 +92,12 @@ const Project = () => {
                     <SwiperSlide>
                         <div className='card-container'>
                             <div className='image'><img src={project.img}/></div>
-                            <div className='name'>{project.name}</div>
-                            <div className='created'>{project.created}</div>
-                            <div className='desc'>{project.desc}</div>
+                            <div className='content'>
+                                <div className='name'>{project.name}</div>
+                                <div className='created'>{project.created}</div>
+                                <div className='desc'>{project.desc}</div>
+                            </div>
+                            
                         </div>
                     </SwiperSlide>
                 ))

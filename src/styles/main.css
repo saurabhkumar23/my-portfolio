@@ -266,6 +266,10 @@ body {
   margin-top: 70px;
 }
 
+#services .card {
+  background: white;
+}
+
 #contact {
   padding: 70px 0;
 }
@@ -537,26 +541,52 @@ body {
   transition: 0.3s;
 }
 
-#project .card-container {
-  height: 500px;
-  width: 300px;
-  border: 1px solid;
+#project {
+  padding: 70px 0;
 }
 
-#project .image {
-  height: 300px;
+#project .heading {
+  font-size: 60px;
+  font-weight: 900;
+  text-align: center;
+}
+
+#project .card-container {
+  padding: 60px 50px;
 }
 
 #project .image img {
   width: 100%;
   height: inherit;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#project .name {
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+#project .created {
+  font-size: 1vw;
+  color: gray;
+  letter-spacing: 1px;
+}
+
+#project .desc {
+  font-size: 1.2vw;
+  letter-spacing: 0.1px;
+}
+
+#project .content {
+  padding: 18px 12px 15px 25px;
 }
 
 .floats-container {
   height: 100vh;
   position: fixed;
   right: 0;
-  z-index: 1;
+  z-index: 3;
   background: transparent;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -625,7 +655,7 @@ body {
 
 #go-top.active {
   bottom: 32px;
-  z-index: 1;
+  z-index: 3;
   pointer-events: auto;
   opacity: 1;
   box-shadow: 0px 1px 73px -5px rgba(0, 0, 0, 0.75) inset;
@@ -650,6 +680,9 @@ body {
   #services .card {
     width: 300px !important;
     padding: 30px 35px 50px 35px !important;
+  }
+  #project .heading {
+    font-size: 45px;
   }
   #contact .heading {
     font-size: 45px !important;
@@ -700,6 +733,19 @@ body {
   .float-links a {
     font-size: 4vw !important;
   }
+  #project .name {
+    font-size: 1.8vw;
+    font-weight: bold;
+  }
+  #project .created {
+    font-size: 1.2vw;
+    color: gray;
+    letter-spacing: 1px;
+  }
+  #project .desc {
+    font-size: 1.4vw;
+    letter-spacing: 0.1px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -727,6 +773,9 @@ body {
   #services .card {
     width: 250px !important;
     padding: 30px 24px 50px 24px !important;
+  }
+  #project .heading {
+    font-size: 35px;
   }
   #contact .heading {
     font-size: 35px !important;
@@ -772,6 +821,19 @@ body {
   }
   #go-top i {
     font-size: 4.5vw;
+  }
+  #project .name {
+    font-size: 2.2vw;
+    font-weight: bold;
+  }
+  #project .created {
+    font-size: 1.7vw;
+    color: gray;
+    letter-spacing: 1px;
+  }
+  #project .desc {
+    font-size: 1.6vw;
+    letter-spacing: 0.1px;
   }
 }
 
@@ -853,6 +915,9 @@ body {
   #contact .icon-container i {
     font-size: 5vw !important;
   }
+  #project .heading {
+    font-size: 7vw;
+  }
   #about .heading {
     font-size: 7vw !important;
   }
@@ -920,6 +985,19 @@ body {
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
   }
+  #project .name {
+    font-size: 3vw;
+    font-weight: bold;
+  }
+  #project .created {
+    font-size: 2.4vw;
+    color: gray;
+    letter-spacing: 1px;
+  }
+  #project .desc {
+    font-size: 2.4vw;
+    letter-spacing: 0.1px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -946,6 +1024,19 @@ body {
   #home ul li {
     font-size: 6vw;
     margin-bottom: 10vw;
+  }
+  #project .name {
+    font-size: 6vw;
+    font-weight: bold;
+  }
+  #project .created {
+    font-size: 5vw;
+    color: gray;
+    letter-spacing: 1px;
+  }
+  #project .desc {
+    font-size: 4vw;
+    line-height: 6.5vw;
   }
   #about {
     padding-top: 45px;
@@ -985,6 +1076,9 @@ body {
     letter-spacing: 0.3vw;
     margin-bottom: 20px;
     margin-top: 0;
+  }
+  #project .heading {
+    font-size: 9vw;
   }
   #contact .heading {
     font-size: 9vw !important;

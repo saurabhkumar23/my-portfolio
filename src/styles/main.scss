@@ -263,6 +263,9 @@ body{
         text-align: center;
     }
     @include services-and-contact-cards-styling()
+    .card{
+        background: white;
+    }
 }
 
 #contact{
@@ -396,17 +399,37 @@ body{
 }
 
 #project{
+    padding: 70px 0;
+    .heading{
+        font-size: 60px;
+        font-weight: 900;
+        text-align: center;
+    }
     .card-container{
-        height: 500px;
-        width: 300px;
-        border: 1px solid;
+        padding: 60px 50px;
     }
     .image{
-        height: 300px;
         img{
             width: 100%;
             height: inherit;
+            object-fit: cover;
         }
+    }
+    .name{
+        font-size: 1.5vw;
+        font-weight: bold;
+    }
+    .created{
+        font-size: 1vw;
+        color: gray;
+        letter-spacing: 1px;
+    }
+    .desc{
+        font-size: 1.2vw;
+        letter-spacing: 0.1px;
+    }
+    .content{
+        padding: 18px 12px 15px 25px;
     }
 }
 
@@ -414,7 +437,7 @@ body{
     height: 100vh;
     position: fixed;
     right: 0;
-    z-index: 1;
+    z-index: 3;
     background: transparent;
     display: flex;
     align-items: center;
@@ -465,7 +488,7 @@ body{
 
 #go-top.active{
     bottom: 32px;
-    z-index: 1;
+    z-index: 3;
     pointer-events: auto;
     opacity: 1;
     box-shadow: 0px 1px 73px -5px rgba(0,0,0,0.75) inset;
@@ -479,6 +502,11 @@ body{
             font-size: 30px;
         }
         @include services-and-contact-cards-992-styling();
+    }
+    #project{
+        .heading{
+            font-size: 45px;
+        }
     }
     #contact{
         @include services-and-contact-cards-992-styling();
@@ -524,6 +552,21 @@ body{
             font-size: 4vw !important;
         }
     }
+    #project{
+        .name{
+            font-size: 1.8vw;
+            font-weight: bold;
+        }
+        .created{
+            font-size: 1.2vw;
+            color: gray;
+            letter-spacing: 1px;
+        }
+        .desc{
+            font-size: 1.4vw;
+            letter-spacing: 0.1px;
+        }
+    }
 }
 
 @media (max-width:768px){
@@ -542,6 +585,11 @@ body{
             font-size: 20px;
         }
         @include services-and-contact-cards-768-styling();
+    }
+    #project{
+        .heading{
+            font-size: 35px;
+        }
     }
     #contact{
         @include services-and-contact-cards-768-styling();
@@ -578,6 +626,21 @@ body{
             font-size: 4.5vw;
         }
     }
+    #project{
+        .name{
+            font-size: 2.2vw;
+            font-weight: bold;
+        }
+        .created{
+            font-size: 1.7vw;
+            color: gray;
+            letter-spacing: 1px;
+        }
+        .desc{
+            font-size: 1.6vw;
+            letter-spacing: 0.1px;
+        }
+    }
 }
 
 @media (max-width:576px){
@@ -589,6 +652,11 @@ body{
     }
     #contact{
         @include services-and-contact-cards-576-styling();
+    }
+    #project{
+        .heading{
+            font-size: 7vw;
+        }
     }
     #about{
         .heading{
@@ -655,6 +723,21 @@ body{
             transform: scale(1.1);
         }
     }
+    #project{
+        .name{
+            font-size: 3vw;
+            font-weight: bold;
+        }
+        .created{
+            font-size: 2.4vw;
+            color: gray;
+            letter-spacing: 1px;
+        }
+        .desc{
+            font-size: 2.4vw;
+            letter-spacing: 0.1px;
+        }
+    }
 }
 
 @media (max-width:480px) {
@@ -684,6 +767,21 @@ body{
         ul li{
             font-size: 6vw;
             margin-bottom: 10vw;
+        }
+    }
+    #project{
+        .name{
+            font-size: 6vw;
+            font-weight: bold;
+        }
+        .created{
+            font-size: 5vw;
+            color: gray;
+            letter-spacing: 1px;
+        }
+        .desc{
+            font-size: 4vw;
+            line-height: 6.5vw;
         }
     }
     #about{
@@ -723,6 +821,11 @@ body{
             letter-spacing: 0.3vw;
             margin-bottom: 20px;
             margin-top: 0;
+        }
+    }
+    #project{
+        .heading{
+            font-size: 9vw;
         }
     }
     #contact{
