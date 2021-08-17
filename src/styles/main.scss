@@ -664,7 +664,7 @@ body{
             padding: 0.7vw !important;
         }
         a{
-            font-size: 3vw !important;
+            font-size: 3.4vw !important;
             padding: 1.4vw !important;
         }
     }
@@ -684,6 +684,23 @@ body{
         ul li{
             font-size: 6vw;
             margin-bottom: 10vw;
+        }
+    }
+    #about{
+        .heading{
+            font-size: 9vw !important;
+        }
+        .text{
+            font-size: 3.5vw;
+        }
+        .skill-heading{
+            font-size: 6vw;
+        }
+        .text-flex{
+            font-size: 3.5vw;
+        }
+        .btns a{
+            font-size: 3.5vw;
         }
     }
 }
