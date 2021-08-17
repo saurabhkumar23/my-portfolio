@@ -692,7 +692,7 @@ body{
         }
         .text{
             font-size: 4vw;
-            line-height: 5.7vw;
+            line-height: 6.5vw;
         }
         .skill-heading{
             font-size: 6vw;
@@ -702,13 +702,21 @@ body{
         }
         .text-flex{
             font-size: 3.7vw;
+            line-height: 6.5vw;
         }
         .btns{
             padding-top: 12vw;
             a{
                 font-size: 4vw;
             }
-            
+            .contact{
+                border: 1px solid;
+            }
+        }
+        padding-top: 45px;
+        .image{
+            height: 55vw;
+            margin-bottom: 45px;
         }
     }
 }

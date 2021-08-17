@@ -947,12 +947,15 @@ body {
     font-size: 6vw;
     margin-bottom: 10vw;
   }
+  #about {
+    padding-top: 45px;
+  }
   #about .heading {
     font-size: 9vw !important;
   }
   #about .text {
     font-size: 4vw;
-    line-height: 5.7vw;
+    line-height: 6.5vw;
   }
   #about .skill-heading {
     font-size: 6vw;
@@ -962,12 +965,20 @@ body {
   }
   #about .text-flex {
     font-size: 3.7vw;
+    line-height: 6.5vw;
   }
   #about .btns {
     padding-top: 12vw;
   }
   #about .btns a {
     font-size: 4vw;
+  }
+  #about .btns .contact {
+    border: 1px solid;
+  }
+  #about .image {
+    height: 55vw;
+    margin-bottom: 45px;
   }
 }
 /*# sourceMappingURL=main.css.map */
