@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://saurabhkumar23.github.io/",
+  "homepage": "https://saurabhkumar23.github.io/my-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,7 +8,7 @@
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.0",
     "aos": "^2.3.4",
-    "gh-pages": "^3.1.0",
+    "gh-pages": "^3.2.3",
     "node-sass": "^4.14.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
