@@ -21,13 +21,13 @@ const Project = () => {
 
     const data = [
         {
-            name : 'UMIX',
-            livelink : 'https://umix.herokuapp.com/',
-            gitlink : 'https://github.com/saurabhkumar23/umix',
-            img : '/images/umix.png',
-            created : 'November 2020',
-            desc : 'A social networking application providing features similar to instagram.',
-            stacks : ['Mongoose','Express','NodeJs','MaterializeCss']
+            name : 'MEME STUDIO',
+            livelink : 'https://saurabhkumar23.github.io/meme-studio/',
+            gitlink : 'https://github.com/saurabhkumar23/meme-studio',
+            img : '/images/meme.png',
+            created : 'June 2021',
+            desc : 'A flexible meme generating web application using Html Canvas.',
+            stacks : ['CanvasAPI','JavaScript','Html','Css','Web speech API','Full screen API']
         },
         {
             name : 'AWESOME BOTS',
@@ -39,22 +39,22 @@ const Project = () => {
             stacks : ['Puppeteer','Html','NodeJs','Css']
         },
         {
-            name : 'MEME GENERATOR',
-            livelink : 'https://saurabhkumar23.github.io/meme-generator/',
-            gitlink : 'https://github.com/saurabhkumar23/meme-generator',
-            img : '/images/meme.png',
-            created : 'June 2021',
-            desc : 'A flexible meme generating web application using Html Canvas.',
-            stacks : ['CanvasAPI','JavaScript','Html','Css','Web speech API','Full screen API']
+            name : 'UMIX',
+            livelink : 'https://umix.herokuapp.com/',
+            gitlink : 'https://github.com/saurabhkumar23/umix',
+            img : '/images/umix.png',
+            created : 'November 2020',
+            desc : 'A social networking application providing features similar to instagram.',
+            stacks : ['Mongoose','Express','NodeJs','MaterializeCss']
         },
         {
-            name : 'WINUX',
-            livelink : 'https://github.com/saurabhkumar23/winux',
-            gitlink : 'https://github.com/saurabhkumar23/winux',
+            name : 'EXCEL SOFT',
+            livelink : 'https://saurabhkumar23.github.io/excel-soft/',
+            gitlink : 'https://github.com/saurabhkumar23/excel-soft',
             img : '/images/winux.png',
-            created : 'January 2021',
-            desc : 'A NodeJs script which allows us to run bash like commands on windows OS.',
-            stacks : ['NodeJS','Bash','JavaScript']
+            created : 'FEBRUARY 2021',
+            desc : 'A JavaScript Application which provide functionalities similar to excel software.',
+            stacks : ['HTML','CSS','JavaScript']
         }
     ]
 

@@ -6,7 +6,7 @@ const Home = ({isAtTop}) => {
 
     useEffect(() => {
         new Typewriter('#typewriter', {
-            strings: ['JavaScript Developer.', 'C++ Programmer.'],
+            strings: ['Java Programmer.','JavaScript Developer.'],
             autoStart: true,
             loop: true
         })          
